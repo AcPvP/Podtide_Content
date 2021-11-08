@@ -1,0 +1,8 @@
+{
+  "key": "AugmentationBlankGemAcquired",
+  "value": {
+    "fullname": "Blank Aug Gem Pickup Timer",
+    "maxsolves": -1,
+    "mindelta": 86400
+  }
+}
