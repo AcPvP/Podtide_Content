@@ -32,8 +32,7 @@ VALUES (1036230,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1036230,   5, -0.03333330154418945) /* ManaRate */
      , (1036230,  39, 0.6000000238418579) /* DefaultScale */
-     , (1036230, 144, 0.10000000149011612) /* ManaConversionMod */
-     , (1036230, 147,       1) /* CriticalFrequency */;
+     , (1036230, 144, 0.0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1036230,   1, 'Rift Orb') /* Name */;
@@ -43,8 +42,7 @@ VALUES (1036230,   1,   33560376) /* Setup */
      , (1036230,   3,  536870932) /* SoundTable */
      , (1036230,   6,   67111919) /* PaletteBase */
      , (1036230,   8,  100689611) /* Icon */
-     , (1036230,  22,  872415275) /* PhysicsEffectTable */
-     , (1036230,  28,       2074) /* Spell - Gossamer Flesh */;
+     , (1036230,  22,  872415275) /* PhysicsEffectTable */;
 
 /* Lifestoned Changelog:
 {

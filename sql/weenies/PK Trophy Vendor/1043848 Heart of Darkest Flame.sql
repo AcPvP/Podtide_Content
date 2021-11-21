@@ -41,10 +41,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1043848,   5, -0.05000000074505806) /* ManaRate */
      , (1043848,  12, 0.6600000262260437) /* Shade */
      , (1043848,  39,       1) /* DefaultScale */
-     , (1043848, 138,    1.25) /* SlayerDamageBonus */
-     , (1043848, 144, 0.18000000715255737) /* ManaConversionMod */
-     , (1043848, 147, 0.15000000596046448) /* CriticalFrequency */
-     , (1043848, 152, 1.2200000286102295) /* ElementalDamageMod */;
+     , (1043848, 144, 0.0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1043848,   1, 'Heart of Darkest Flame') /* Name */
