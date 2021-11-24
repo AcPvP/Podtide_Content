@@ -32,8 +32,7 @@ VALUES (13241330,   1,   33561386) /* Setup */
      , (13241330,   7,  268437492) /* ClothingBase */
      , (13241330,   8,  100692132) /* Icon */
      , (13241330,  22,  872415275) /* PhysicsEffectTable */
-     , (13241330,  50,  100690997) /* IconOverlay */
-     , (13241330,  55,       5754) /* ProcSpell - Shroud of Darkness (Magic) */;
+     , (13241330,  50,  100690997) /* IconOverlay */;
 
 /* Lifestoned Changelog:
 {
