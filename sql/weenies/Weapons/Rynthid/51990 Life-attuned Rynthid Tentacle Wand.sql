@@ -12,8 +12,7 @@ VALUES (51990,   1,      32768) /* ItemType - Caster */
      , (51990,  19,      10000) /* Value */
      , (51990,  33,          1) /* Bonded - Bonded */
      , (51990,  45,         16) /* DamageType - Fire */
-     , (51990,  52,          1) /* ParentLocation - RightHand */
-     , (51990,  53,          1) /* PlacementPosition - RightHandCombat */
+     , (51990,  46,        512) /* DefaultCombatStyle - Magic */
      , (51990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51990,  94,         16) /* TargetType - Creature */
      , (51990, 106,        475) /* ItemSpellcraft */
@@ -50,11 +49,11 @@ VALUES (51990,   1, 'Life-attuned Rynthid Tentacle Wand') /* Name */
      , (51990,  33, 'TentacleWeaponPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51990,   1,   33561603) /* Setup */
-     , (51990,   3,  536870932) /* SoundTable */
-     , (51990,   6,   67111919) /* PaletteBase */
-     , (51990,   8,  100693234) /* Icon */
-     , (51990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51990,   1, 0x02001C03) /* Setup */
+     , (51990,   3, 0x20000014) /* SoundTable */
+     , (51990,   6, 0x04000BEF) /* PaletteBase */
+     , (51990,   8, 0x060074F2) /* Icon */
+     , (51990,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51990,  3964,      2)  /* Epic Focus */
