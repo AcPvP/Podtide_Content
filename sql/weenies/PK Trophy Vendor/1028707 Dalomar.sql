@@ -412,7 +412,17 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
      , (1028707, 4, 1030304,  0, 0, 0, False) /* Create  (1030304) for Shop */
      , (1028707, 4, 1030303,  0, 0, 0, False) /* Create  (1030303) for Shop */
      , (1028707, 4, 1030351,  0, 0, 0, False) /* Create  (1030351) for Shop */
-     , (1028707, 4, 1030516,  0, 0, 0, False) /* Create  (1030516) for Shop */;
+     , (1028707, 4, 1030516,  0, 0, 0, False) /* Create  (1030516) for Shop */
+     , (1028707, 4, 503715,  0, 0, 0, False) /* Create  (503715) for Shop */
+     , (1028707, 4, 505937,  0, 0, 0, False) /* Create  (505937) for Shop */
+     , (1028707, 4, 522550,  0, 0, 0, False) /* Create  (522550) for Shop */
+     , (1028707, 4, 527889,  0, 0, 0, False) /* Create  (527889) for Shop */
+     , (1028707, 4, 528861,  0, 0, 0, False) /* Create  (528861) for Shop */
+     , (1028707, 4, 528866,  0, 0, 0, False) /* Create  (528866) for Shop */
+     , (1028707, 4, 528868,  0, 0, 0, False) /* Create  (528868) for Shop */
+     , (1028707, 4, 528869,  0, 0, 0, False) /* Create  (528869) for Shop */
+     , (1028707, 4, 532168,  0, 0, 0, False) /* Create  (532168) for Shop */
+     , (1028707, 4, 545031,  0, 0, 0, False) /* Create  (545031) for Shop */;
 
 /* Lifestoned Changelog:
 {
