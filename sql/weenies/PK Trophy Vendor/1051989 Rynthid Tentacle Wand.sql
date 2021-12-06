@@ -31,9 +31,7 @@ VALUES (1051989,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1051989,   5, -0.032999999821186066) /* ManaRate */
-     , (1051989, 144, 0.20000000298023224) /* ManaConversionMod */
-     , (1051989, 147,       1) /* CriticalFrequency */
-     , (1051989, 152, 1.159999966621399) /* ElementalDamageMod */;
+     , (1051989, 144, 0.0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1051989,   1, 'Rynthid Tentacle Wand') /* Name */
