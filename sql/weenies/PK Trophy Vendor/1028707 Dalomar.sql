@@ -422,7 +422,8 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
      , (1028707, 4, 528868,  0, 0, 0, False) /* Create  (528868) for Shop */
      , (1028707, 4, 528869,  0, 0, 0, False) /* Create  (528869) for Shop */
      , (1028707, 4, 532168,  0, 0, 0, False) /* Create  (532168) for Shop */
-     , (1028707, 4, 545031,  0, 0, 0, False) /* Create  (545031) for Shop */;
+     , (1028707, 4, 545031,  0, 0, 0, False) /* Create  (545031) for Shop */
+     , (1028707, 4, 536489,  0, 0, 0, False) /* Create  (536489) for Shop */;
 
 /* Lifestoned Changelog:
 {
