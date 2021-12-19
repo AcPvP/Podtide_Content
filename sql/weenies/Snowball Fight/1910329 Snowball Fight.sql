@@ -8,7 +8,7 @@ VALUES (1910329,   1,      65536) /* ItemType - Portal */
      , (1910329,  16,         32) /* ItemUseable - Remote */
      , (1910329,  87,         10) /* MaxLevel */
      , (1910329,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (1910329, 111,         56) /* PortalBitmask - NoNPK, NoSummon, NoRecall */
+     , (1910329, 111,         48) /* PortalBitmask 48 - No Recall/Tie/Summon */
      , (1910329, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
