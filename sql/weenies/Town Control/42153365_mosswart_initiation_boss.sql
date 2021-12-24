@@ -11,6 +11,7 @@ VALUES (42153365,   1,         16) /* ItemType - Creature */
      , (42153365,   7,         -1) /* ContainersCapacity */
      , (42153365,  16,          1) /* ItemUseable - No */
      , (42153365,  25,        420) /* Level */
+     , (42153365,  67,         64) /* Tolerance - Retaliate */
      , (42153365,  68,          3) /* TargetingTactic - Random, Focused */
      , (42153365,  70,          1) /* TargetingTactic - , Homesick */
      , (42153365,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -152,34 +153,19 @@ VALUES (42153365, 2, 8150,  1, 0, 0, False) /* Create  (8150) for Wield */
      , (42153365, 2, 25527,  1, 0, 0, False) /* Create  (25527) for Wield */
      , (42153365, 2, 42142662,  1, 0, 0, False) /* Create  (42142662) for Wield */
      , (42153365, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
-     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 52968,  1, 0, 0.2, False) /* Create  (52968) for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 48908,  1, 0, 0.2, False) /* Create  (48908) for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 48908,  1, 0, 0.2, False) /* Create  (48908) for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 48908,  1, 0, 0.2, False) /* Create  (48908) for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 48908,  1, 0, 0.2, False) /* Create  (48908) for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (42153365, 9, 48908,  1, 0, 0.2, False) /* Create  (48908) for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
      , (42153365, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
