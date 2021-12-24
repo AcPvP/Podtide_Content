@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2040780;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2040780, 'ace2040780-progenitoroffrost', 10, '2021-12-24 04:27:26') /* Creature */;
+VALUES (2040780, 'ace2040780-progenitoroffrost', 10, '2021-12-24 14:47:20') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2040780,   1,         16) /* ItemType - Creature */
@@ -91,7 +91,7 @@ VALUES (2040780,  6, 0, 3, 0, 550, 0, 1981.298828125) /* MeleeDefense        Spe
      , (2040780,  7, 0, 3, 0, 440, 0, 1981.298828125) /* MissileDefense      Specialized */
      , (2040780, 13, 0, 3, 0, 450, 0, 1981.298828125) /* UnarmedCombat       Specialized */
      , (2040780, 14, 0, 3, 0, 300, 0, 1981.298828125) /* ArcaneLore          Specialized */
-     , (2040780, 15, 0, 3, 0, 370, 0, 1981.298828125) /* MagicDefense        Specialized */
+     , (2040780, 15, 0, 3, 0, 320, 0, 1981.298828125) /* MagicDefense        Specialized */
      , (2040780, 20, 0, 3, 0, 150, 0, 1981.298828125) /* Deception           Specialized */
      , (2040780, 22, 0, 3, 0,  10, 0, 1981.298828125) /* Jump                Specialized */
      , (2040780, 24, 0, 3, 0,  20, 0, 1981.298828125) /* Run                 Specialized */
@@ -112,12 +112,12 @@ VALUES (2040780,  0,  8,  0,    0,  350,  301,  350,  350,  350,  350,  350,  35
      , (2040780,  8,  8, 200,  0.5,  650,  559,  650,  650,  650,  650,  650,  650,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2040780,  4446,  2.414)  /* Incantation of Frost Blast */
-     , (2040780,  4448,   2.02)  /* Incantation of Frost Streak */
-     , (2040780,  4449,   2.21)  /* Incantation of Frost Volley */
-     , (2040780,  1843,  2.266)  /* Foon-Ki's Glacial Floe */
-     , (2040780,  4479,  2.259)  /* Incantation of Cold Vulnerability Other */
-     , (2040780,  4312,  2.206)  /* Incantation of Imperil Other */;
+VALUES (2040780,  4446,  1.414)  /* Incantation of Frost Blast */
+     , (2040780,  4448,   1.02)  /* Incantation of Frost Streak */
+     , (2040780,  4449,   1.21)  /* Incantation of Frost Volley */
+     , (2040780,  1843,  1.266)  /* Foon-Ki's Glacial Floe */
+     , (2040780,  4479,  1.259)  /* Incantation of Cold Vulnerability Other */
+     , (2040780,  4312,  1.206)  /* Incantation of Imperil Other */;
 
 /* Lifestoned Changelog:
 {

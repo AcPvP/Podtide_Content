@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2043163;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2043163, 'ace2043163-frostgolem', 10, '2021-12-24 04:27:25') /* Creature */;
+VALUES (2043163, 'ace2043163-frostgolem', 10, '2021-12-24 14:41:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2043163,   1,         16) /* ItemType - Creature */
@@ -94,7 +94,7 @@ VALUES (2043163,  6, 0, 3, 0, 380, 0, 1981.298828125) /* MeleeDefense        Spe
      , (2043163,  7, 0, 3, 0, 380, 0, 1981.298828125) /* MissileDefense      Specialized */
      , (2043163, 13, 0, 3, 0, 600, 0, 1981.298828125) /* UnarmedCombat       Specialized */
      , (2043163, 14, 0, 3, 0, 300, 0, 1981.298828125) /* ArcaneLore          Specialized */
-     , (2043163, 15, 0, 3, 0, 380, 0, 1981.298828125) /* MagicDefense        Specialized */
+     , (2043163, 15, 0, 3, 0, 320, 0, 1981.298828125) /* MagicDefense        Specialized */
      , (2043163, 20, 0, 3, 0, 200, 0, 1981.298828125) /* Deception           Specialized */
      , (2043163, 22, 0, 3, 0,  10, 0, 1981.298828125) /* Jump                Specialized */
      , (2043163, 24, 0, 3, 0,  50, 0, 1981.298828125) /* Run                 Specialized */
@@ -115,12 +115,12 @@ VALUES (2043163,  0,  8,  0,    0,  350,  301,  350,  350,  350,  350,  350,  35
      , (2043163,  8,  8, 215,  0.5,  650,  559,  650,  650,  650,  650,  650,  650,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2043163,  4446,  2.414)  /* Incantation of Frost Blast */
-     , (2043163,  4448,   2.02)  /* Incantation of Frost Streak */
-     , (2043163,  4449,   2.21)  /* Incantation of Frost Volley */
-     , (2043163,  1843,  2.266)  /* Foon-Ki's Glacial Floe */
-     , (2043163,  4479,  2.259)  /* Incantation of Cold Vulnerability Other */
-     , (2043163,  4312,  2.206)  /* Incantation of Imperil Other */;
+VALUES (2043163,  4446,  1.414)  /* Incantation of Frost Blast */
+     , (2043163,  4448,   1.02)  /* Incantation of Frost Streak */
+     , (2043163,  4449,   1.21)  /* Incantation of Frost Volley */
+     , (2043163,  1843,  1.266)  /* Foon-Ki's Glacial Floe */
+     , (2043163,  4479,  1.259)  /* Incantation of Cold Vulnerability Other */
+     , (2043163,  4312,  1.206)  /* Incantation of Imperil Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (2043163,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
