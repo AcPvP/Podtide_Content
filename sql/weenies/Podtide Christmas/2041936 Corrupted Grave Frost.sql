@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2041936;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2041936, 'ace2041936-corruptedgravefrost', 10, '2021-12-24 14:47:31') /* Creature */;
+VALUES (2041936, 'ace2041936-corruptedgravefrost', 10, '2021-12-25 03:21:25') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2041936,   1,         16) /* ItemType - Creature */
@@ -87,7 +87,7 @@ VALUES (2041936,   1,  7675, 0, 0, 7850) /* MaxHealth */
      , (2041936,   5,  5280, 0, 0, 5730) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2041936,  6, 0, 3, 0, 550, 0, 1981.298828125) /* MeleeDefense        Specialized */
+VALUES (2041936,  6, 0, 3, 0, 500, 0, 1981.298828125) /* MeleeDefense        Specialized */
      , (2041936,  7, 0, 3, 0, 440, 0, 1981.298828125) /* MissileDefense      Specialized */
      , (2041936, 13, 0, 3, 0, 600, 0, 1981.298828125) /* UnarmedCombat       Specialized */
      , (2041936, 14, 0, 3, 0, 300, 0, 1981.298828125) /* ArcaneLore          Specialized */

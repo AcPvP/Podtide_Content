@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2270011;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2270011, 'ace2270011-entrancetothefrozenfortress', 7, '2021-12-24 04:27:26') /* Portal */;
+VALUES (2270011, 'ace2270011-entrancetothefrozenfortress', 7, '2021-12-25 00:56:11') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2270011,   1,      65536) /* ItemType - Portal */
@@ -38,10 +38,16 @@ VALUES (2270011, 2, 0x595002C2, 140, -156.951, 0.005, 1, 0, 0, 0) /* Destination
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2021-12-18T11:52:16.9222906-05:00",
-  "ModifiedBy": "Tindale",
-  "Changelog": [],
-  "UserChangeSummary": "funky quest",
+  "LastModified": "2021-12-25T00:55:32.4274073Z",
+  "ModifiedBy": "ACE.Adapter",
+  "Changelog": [
+    {
+      "created": "2021-12-25T00:55:32.4009962Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
   "IsDone": true
 }
 */

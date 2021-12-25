@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2143163;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2143163, 'ace2143163-frostgolem', 10, '2021-12-24 14:45:22') /* Creature */;
+VALUES (2143163, 'ace2143163-frostgolem', 10, '2021-12-25 03:23:44') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2143163,   1,         16) /* ItemType - Creature */
@@ -90,8 +90,8 @@ VALUES (2143163,   1,  3500, 0, 0, 3665) /* MaxHealth */
      , (2143163,   5,  2100, 0, 0, 2320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2143163,  6, 0, 3, 0, 380, 0, 1981.298828125) /* MeleeDefense        Specialized */
-     , (2143163,  7, 0, 3, 0, 380, 0, 1981.298828125) /* MissileDefense      Specialized */
+VALUES (2143163,  6, 0, 3, 0, 500, 0, 1981.298828125) /* MeleeDefense        Specialized */
+     , (2143163,  7, 0, 3, 0, 500, 0, 1981.298828125) /* MissileDefense      Specialized */
      , (2143163, 13, 0, 3, 0, 600, 0, 1981.298828125) /* UnarmedCombat       Specialized */
      , (2143163, 14, 0, 3, 0, 300, 0, 1981.298828125) /* ArcaneLore          Specialized */
      , (2143163, 15, 0, 3, 0, 320, 0, 1981.298828125) /* MagicDefense        Specialized */
