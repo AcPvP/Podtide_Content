@@ -18,6 +18,9 @@ VALUES (1000002,   1,     262144) /* ItemType - PromissoryNote */
      , (1000002,  33,          1) /* Bonded - Bonded */
      , (1000002,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
+     INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (1000002,  69, False) /* IsSellable */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1000002,   1, 'PK Trophy') /* Name */
      , (1000002,  20, 'PK Trophies') /* PluralName */;
