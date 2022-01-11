@@ -23,6 +23,7 @@ VALUES (42127923,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42127923,   1, 'A Phial of Innocent Tears') /* Name */
+       (42127923,  20, 'Phials of Innocent Tears') /* PluralName */
      , (42127923,  16, 'An ancient philter, filled to the brim with tears of the Innocent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
