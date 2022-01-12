@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46553;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46553, 'ace46553-oyoroisandals', 2, '2021-12-26 05:41:04') /* Clothing */;
+VALUES (46553, 'ace46553-oyoroisandals', 2, '2021-11-17 16:56:08') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46553,   1,          2) /* ItemType - Armor */
@@ -11,11 +11,11 @@ VALUES (46553,   1,          2) /* ItemType - Armor */
      , (46553,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (46553,  16,          1) /* ItemUseable - No */
      , (46553,  19,         70) /* Value */
-     , (46553,  28,        660) /* ArmorLevel */
+     , (46553,  28,        440) /* ArmorLevel */
      , (46553,  33,          1) /* Bonded - Bonded */
-     , (46553,  53,        101) /* PlacementPosition - Resting */
      , (46553,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46553, 106,        100) /* ItemSpellcraft */
+     , (46553, 107,       1000) /* ItemCurMana */
      , (46553, 108,       1000) /* ItemMaxMana */
      , (46553, 109,          0) /* ItemDifficulty */
      , (46553, 158,          7) /* WieldRequirements - Level */
@@ -33,18 +33,19 @@ VALUES (46553,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46553,   5,  -0.033) /* ManaRate */
-     , (46553,  12,    0.25) /* Shade */
-     , (46553,  13,     2.9) /* ArmorModVsSlash */
-     , (46553,  14,     3.2) /* ArmorModVsPierce */
-     , (46553,  15,     2.9) /* ArmorModVsBludgeon */
-     , (46553,  16,     2.3) /* ArmorModVsCold */
-     , (46553,  17,     2.3) /* ArmorModVsFire */
-     , (46553,  18,     2.5) /* ArmorModVsAcid */
-     , (46553,  19,     2.3) /* ArmorModVsElectric */
+     , (46553,  12,     0.6) /* Shade */
+     , (46553,  13,     1.2) /* ArmorModVsSlash */
+     , (46553,  14,     1.5) /* ArmorModVsPierce */
+     , (46553,  15,     1.2) /* ArmorModVsBludgeon */
+     , (46553,  16,     0.6) /* ArmorModVsCold */
+     , (46553,  17,     0.6) /* ArmorModVsFire */
+     , (46553,  18,     0.8) /* ArmorModVsAcid */
+     , (46553,  19,     0.6) /* ArmorModVsElectric */
      , (46553, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46553,   1, 'O-Yoroi Sandals') /* Name */;
+VALUES (46553,   1, 'O-Yoroi Sandals') /* Name */
+     , (46553,  33, 'HoshinoFortArmorPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46553,   1, 0x020000DE) /* Setup */
