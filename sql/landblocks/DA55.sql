@@ -464,7 +464,3 @@ VALUES (0x7DA5509B, 87810, 0xDA550132, 59.1611, 185.809, 24.455, -0.717982, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA5509C, 42128707, 0xDA55001D, 93.1147, 117.095, 20.01, -0.397176, 0, 0, -0.917743, False, '2021-12-23 18:47:11'); /* Town Treasurer */
 /* @teleloc 0xDA55001D [93.114700 117.095001 20.010000] -0.397176 0.000000 0.000000 -0.917743 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA5509D, 42153365, 0xDA550024, 119.241, 72.1946, 20.0105, 0.395269, 0, 0, -0.918566, False, '2021-12-23 18:50:51'); /* Mosswart Governor */
-/* @teleloc 0xDA550024 [119.240997 72.194603 20.010500] 0.395269 0.000000 0.000000 -0.918566 */
