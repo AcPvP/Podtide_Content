@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42128707;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42128707, 'towntreasurer', 12, '2021-11-20 00:19:18') /* Vendor */;
+VALUES (42128707, 'shoushitowntreasurer', 12, '2021-11-20 00:19:18') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42128707,   1,         16) /* ItemType - Creature */
@@ -66,7 +66,7 @@ VALUES (42128707,   1,       5) /* HeartbeatInterval */
      , (42128707, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42128707,   1, 'Town Treasurer') /* Name */
+VALUES (42128707,   1, 'Shoushi Town Treasurer') /* Name */
      , (42128707,   3, 'Male') /* Sex */
      , (42128707,   4, 'Sho') /* HeritageGroup */
      , (42128707,   5, 'Vendor') /* Template */
@@ -78,7 +78,7 @@ VALUES (42128707,   1,   33554433) /* Setup */
      , (42128707,   3,  536870913) /* SoundTable */
      , (42128707,   4,  805306368) /* CombatTable */
      , (42128707,   8,  100667446) /* Icon */
-     , (42128707,  57,  42127923) /* AlternateCurrency */;
+     , (42128707,  57,  20630) /* AlternateCurrency - Trade Note (250,000) */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42128707,   1, 290, 0, 0) /* Strength */
