@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42124580,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42124580,   1, 'Tree Portal') /* Name */
+VALUES (42124580,   1, 'Candeth Tree Portal') /* Name */
      , (42124580,  37, 'ShoushiTownControlOwner') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
