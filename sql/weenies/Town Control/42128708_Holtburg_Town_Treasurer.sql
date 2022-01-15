@@ -182,4 +182,9 @@ VALUES (42128708, 2,    22015,  0, 21, 0.9, False) /* Create (22015) for Wield *
      , (42128708, 2,    29521,  0, 21, 0.9, False) /* Create (29521) for Wield */
      , (42128708, 2,    29535,  0, 21, 0.9, False) /* Create (29535) for Wield */
      , (42128708, 2,    29545,  0, 21, 0.9, False) /* Create (29545) for Wield */
-     , (42128708, 4,   524470,  0, 0, 0, False) /* Create  (524470) for Shop */;
+     , (42128708, 4,   524470,  0, 0, 0, False) /* Create  (524470) for Shop */
+     , (42128708, 4,   4200017,  0, 0, 0, False) /* Create  (4200017) for Shop */
+     , (42128708, 4,   4200018,  0, 0, 0, False) /* Create  (4200018) for Shop */
+     , (42128708, 4,   4200019,  0, 0, 0, False) /* Create  (4200019) for Shop */
+     , (42128708, 4,   4200020,  0, 0, 0, False) /* Create  (4200020) for Shop */
+     , (42128708, 4,   4200021,  0, 0, 0, False) /* Create  (4200021) for Shop */;
