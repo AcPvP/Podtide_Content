@@ -9,7 +9,7 @@ VALUES (4200020,   1,        128) /* ItemType - Misc */
      , (4200020,   8,         75) /* Mass */
      , (4200020,  16,          8) /* ItemUseable - Contained */
      , (4200020,  18,        256) /* UiEffects - Acid */
-     , (4200020,  19,        100) /* Value */
+     , (4200020,  19,         50) /* Value */
      , (4200020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4200020,  94,         16) /* TargetType - Creature */
      , (4200020, 106,        150) /* ItemSpellcraft */
