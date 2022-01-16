@@ -14,6 +14,7 @@ VALUES (42127923,   1,     262144) /* ItemType - PromissoryNote */
      , (42127923,  14,          1) /* StackUnitMass */
      , (42127923,  15,          1) /* StackUnitValue */
      , (42127923,  16,          1) /* ItemUseable - No */
+     , (42127923,  18,          4) /* UI Effects Boosted Health */
      , (42127923,  19,          1) /* Value */
      , (42127923,  33,          1) /* Bonded - Bonded */
      , (42127923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -30,4 +31,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42127923,   1, 0x020005FD) /* Setup */
      , (42127923,   3, 0x20000014) /* SoundTable */
      , (42127923,   8, 0x060033CC) /* Icon */
-     , (42127923,  22, 0x3400002B) /* PhysicsEffectTable */;
+     , (42127923,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42127923,  52,  100689805) /* IconUnderlay */;
