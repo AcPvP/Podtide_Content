@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42128707;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42128707, 'ace42128707-shoushitowntreasurer', 12, '2022-01-16 17:51:52') /* Vendor */;
+VALUES (42128707, 'ace42128707-shoushitowntreasurer', 12, '2022-01-17 02:08:27') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42128707,   1,         16) /* ItemType - Creature */
@@ -185,10 +185,7 @@ VALUES (42128707, 2, 22017,  0, 21, 0.9, False) /* Create Koji's Fiend (22017) f
      , (42128707, 2, 29545,  0, 85, 0.9, False) /* Create Noble Sollerets (29545) for Wield */
      , (42128707, 4, 524470,  0, 0, 0, False) /* Create Serial Killer's Satchel (524470) for Shop */
      , (42128707, 4, 4200017,  0, 0, 0, False) /* Create Town Control Trinket of Experience (4200017) for Shop */
-     , (42128707, 4, 4200018,  0, 0, 0, False) /* Create Ground Anus (4200018) for Shop */
-     , (42128707, 4, 4200019,  0, 0, 0, False) /* Create A Fuckin' Bang (4200019) for Shop */
-     , (42128707, 4, 4200020,  0, 0, 0, False) /* Create Burning Blunt (4200020) for Shop */
-     , (42128707, 4, 4200021,  0, 0, 0, False) /* Create Covid Vaccine (4200021) for Shop */;
+     , (42128707, 4, 4200020,  0, 0, 0, False) /* Create Burning Blunt (4200020) for Shop */;
 
 /* Lifestoned Changelog:
 {

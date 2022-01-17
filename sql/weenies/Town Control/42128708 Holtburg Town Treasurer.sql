@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42128708;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42128708, 'ace42128708-holtburgtowntreasurer', 12, '2022-01-16 17:55:39') /* Vendor */;
+VALUES (42128708, 'ace42128708-holtburgtowntreasurer', 12, '2022-01-17 02:08:31') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42128708,   1,         16) /* ItemType - Creature */
@@ -186,9 +186,7 @@ VALUES (42128708, 2, 22015,  0, 21, 0.9, False) /* Create Pwyll's Guard (22015) 
      , (42128708, 4, 524470,  0, 0, 0, False) /* Create Serial Killer's Satchel (524470) for Shop */
      , (42128708, 4, 4200017,  0, 0, 0, False) /* Create Town Control Trinket of Experience (4200017) for Shop */
      , (42128708, 4, 4200018,  0, 0, 0, False) /* Create Ground Anus (4200018) for Shop */
-     , (42128708, 4, 4200019,  0, 0, 0, False) /* Create A Fuckin' Bang (4200019) for Shop */
-     , (42128708, 4, 4200020,  0, 0, 0, False) /* Create Burning Blunt (4200020) for Shop */
-     , (42128708, 4, 4200021,  0, 0, 0, False) /* Create Covid Vaccine (4200021) for Shop */;
+     , (42128708, 4, 4200019,  0, 0, 0, False) /* Create A Fuckin' Bang (4200019) for Shop */;
 
 /* Lifestoned Changelog:
 {
