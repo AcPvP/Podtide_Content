@@ -1,18 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4200023;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4200023, 'ace4200023-armorvaluemorphgem', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (4200023, 'ace4200023-armorvaluemorphgem', 38, '2022-01-17 04:10:30') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200023,   1,       2048) /* ItemType - Gem */
      , (4200023,   5,         10) /* EncumbranceVal */
      , (4200023,  11,          1) /* MaxStackSize */
      , (4200023,  12,          1) /* StackSize */
-     , (4200023,  18,          1) /* UiEffects - Magical */
      , (4200023,  13,         10) /* StackUnitEncumbrance */
      , (4200023,  15,          1) /* StackUnitValue */
      , (4200023,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (4200023,  19,          1) /* Value */
+     , (4200023,  18,          1) /* UiEffects - Magical */
+     , (4200023,  19,         20) /* Value */
      , (4200023,  65,        101) /* Placement - Resting */
      , (4200023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4200023,  94,          6) /* TargetType - Vestements */;
@@ -35,7 +35,20 @@ VALUES (4200023,   1, 0x02000179) /* Setup */
      , (4200023,   3, 0x20000014) /* SoundTable */
      , (4200023,   6, 0x04000BEF) /* PaletteBase */
      , (4200023,   7, 0x1000010B) /* ClothingBase */
-     , (4200023,   8,  100673905) /* Icon */
+     , (4200023,   8, 0x06002971) /* Icon */
      , (4200023,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (4200023,  50,  100672159) /* IconOverlay */
-     , (4200023,  52,  100689403) /* IconUnderlay */;
+     , (4200023,  50, 0x0600229F) /* IconOverlay */
+     , (4200023,  52, 0x060065FB) /* IconUnderlay */;
+
+/* Lifestoned Changelog:
+{
+  "Changelog": [
+    {
+      "created": "2022-01-17T02:18:55.5489445Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "IsDone": false
+}
+*/
