@@ -71,8 +71,7 @@ VALUES (4200001,   1, 0x020016E1) /* Setup */
      , (4200001,   6, 0x04001425) /* PaletteBase */
      , (4200001,   7, 0x10000410) /* ClothingBase */
      , (4200001,   8, 0x06001036) /* Icon */
-     , (4200001,  22, 0x34000017) /* PhysicsEffectTable */
-     , (4200001,  35,       2121) /* DeathTreasureType - Loot Tier: 8 */;
+     , (4200001,  22, 0x34000017) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200001,  16, 0x7A5B4016) /* ActivationTarget */;
@@ -119,10 +118,11 @@ VALUES (4200001,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  20
      , (4200001,  8,  4, 600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4200001,  4312,   2.05)  /* Incantation of Imperil Other */
-     , (4200001,  4483,  2.105)  /* Incantation of Lightning Vulnerability Other */
-     , (4200001,  6198,  2.118)  /* Incantation of Lightning Bolt */
-     , (4200001,  6199,  2.133)  /* Incantation of Lightning Arc */;
+VALUES (4200001,  4312,  2.15)  /* Incantation of Imperil Other */
+     , (4200001,  4483,  2.15)  /* Incantation of Lightning Vulnerability Other */
+     , (4200001,  4477,  2.17)  /* Incantation of Bludgeoning Vulnerability Other */
+     , (4200001,  6198,  2.18)  /* Incantation of Lightning Bolt */
+     , (4200001,  6199,  2.18)  /* Incantation of Lightning Arc */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (4200001,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -156,9 +156,7 @@ VALUES (@parent_id,  0,   7 /* PhysScript */, 1, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  3,  19 /* CastSpellInstant */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6169 /* Deadly Lightning Volley */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4200001, 2,  8150,  1, 0, 0, False) /* Create Mosswart Mask (8150) for Wield */
-     , (4200001, 2, 25527,  1, 0, 0, False) /* Create Gauloth Leggings (25527) for Wield */
-     , (4200001, 2, 42666,  1, 0, 0, False) /* Create Decapitator's Blade (42666) for Wield */;
+VALUES (4200001, 2, 4200010,  1, 0, 0, False) /* Create Protector''s spike (4200010) for Wield */;
 
 /* Lifestoned Changelog:
 {
