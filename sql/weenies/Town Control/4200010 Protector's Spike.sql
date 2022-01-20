@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4200010;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4200010, 'spikyball', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (4200010, 'ace4200010-protectorsspike', 6, '2022-01-20 01:11:10') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200010,   1,          1) /* ItemType - MeleeWeapon */
@@ -42,8 +42,8 @@ VALUES (4200010,   5,  -0.033) /* ManaRate */
      , (4200010,  22,     0.3) /* DamageVariance */
      , (4200010,  26,       0) /* MaximumVelocity */
      , (4200010,  29,    1.18) /* WeaponDefense */
-     , (4200010,  39,     1.1) /* DefaultScale */
-     , (4200010,  62,    1.20) /* WeaponOffense */
+     , (4200010,  39,       2) /* DefaultScale */
+     , (4200010,  62,     1.2) /* WeaponOffense */
      , (4200010,  63,       1) /* DamageMod */
      , (4200010, 138,    1.45) /* SlayerDamageBonus */
      , (4200010, 147,    0.25) /* CriticalFrequency */
@@ -70,3 +70,29 @@ VALUES (4200010,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */
      , (4200010,  4470,      2)  /* Incantation of Lightning Protection Self */
      , (4200010,  6089,      2)  /* Legendary Blood Thirst */
      , (4200010,  4712,      2)  /* Epic Heavy Weapon Aptitude */;
+
+/* Lifestoned Changelog:
+{
+  "LastModified": "2022-01-20T01:09:06.5170365Z",
+  "ModifiedBy": "ACE.Adapter",
+  "Changelog": [
+    {
+      "created": "2022-01-20T01:00:09.4016554Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-20T01:08:43.3224637Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-20T01:09:06.5164836Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
+  "IsDone": false
+}
+*/

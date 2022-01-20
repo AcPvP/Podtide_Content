@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4200001;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4200001, 'ace4200001-holtburggovernor', 10, '2022-01-17 21:51:56') /* Creature */;
+VALUES (4200001, 'ace4200001-holtburggovernor', 10, '2022-01-20 02:09:26') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200001,   1,         16) /* ItemType - Creature */
@@ -86,7 +86,7 @@ VALUES (4200001,   1, 400, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (4200001,   1, 99800, 0, 0, 5) /* MaxHealth */
-     , (4200001,   3,  4600, 0, 0, 0) /* MaxStamina */
+     , (4200001,   3, 99600, 0, 0, 0) /* MaxStamina */
      , (4200001,   5,  4500, 0, 0, 0) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
@@ -118,11 +118,11 @@ VALUES (4200001,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  20
      , (4200001,  8,  4, 600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4200001,  4312,  2.15)  /* Incantation of Imperil Other */
-     , (4200001,  4483,  2.15)  /* Incantation of Lightning Vulnerability Other */
-     , (4200001,  4477,  2.17)  /* Incantation of Bludgeoning Vulnerability Other */
-     , (4200001,  6198,  2.18)  /* Incantation of Lightning Bolt */
-     , (4200001,  6199,  2.18)  /* Incantation of Lightning Arc */;
+VALUES (4200001,  4312,   2.15)  /* Incantation of Imperil Other */
+     , (4200001,  4483,   2.15)  /* Incantation of Lightning Vulnerability Other */
+     , (4200001,  4477,   2.17)  /* Incantation of Bludgeoning Vulnerability Other */
+     , (4200001,  6198,   2.18)  /* Incantation of Lightning Bolt */
+     , (4200001,  6199,   2.18)  /* Incantation of Lightning Arc */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (4200001,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -155,14 +155,22 @@ VALUES (@parent_id,  0,   7 /* PhysScript */, 1, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,   5 /* Motion */, 3, 1, 0x430000F2 /* AkimboState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  19 /* CastSpellInstant */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6169 /* Deadly Lightning Volley */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (4200001, 19 /* Homesick */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  14 /* CastSpell */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2343 /* Rushed Recovery */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4200001, 2, 4200010,  1, 0, 0, False) /* Create Protector''s spike (4200010) for Wield */;
+VALUES (4200001, 2, 4200010,  1, 0, 0, False) /* Create Protector's Spike (4200010) for Wield */;
 
 /* Lifestoned Changelog:
 {
   "Changelog": [
     {
-      "created": "2022-01-17T17:19:12.7077866Z",
+      "created": "2022-01-20T01:00:43.9665407Z",
       "author": "ACE.Adapter",
       "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
     }
