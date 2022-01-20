@@ -462,9 +462,9 @@ VALUES (0x7DA5509B, 87810, 0xDA550132, 59.1611, 185.809, 24.455, -0.717982, 0, 0
 /* @teleloc 0xDA550132 [59.161098 185.809006 24.455000] -0.717982 0.000000 0.000000 0.696061 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA5509C, 42128707, 0xDA55001D, 93.1147, 117.095, 20.01, -0.397176, 0, 0, -0.917743, False, '2021-12-23 18:47:11'); /* Shoushi Town Treasurer */
-/* @teleloc 0xDA55001D [93.114700 117.095001 20.010000] -0.397176 0.000000 0.000000 -0.917743 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA5509D, 4200044, 0xDA550015, 64.4302, 118.808, 19.937, 0.278122, 0, 0, -0.960546, False, '2022-01-19 20:15:38'); /* Abandoned Mine */
 /* @teleloc 0xDA550015 [64.430199 118.807999 19.937000] 0.278122 0.000000 0.000000 -0.960546 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DA5509E, 42128707, 0xDA550015, 64.2647, 106.918, 20.01, 0.67559, 0, 0, 0.737277, False, '2022-01-19 20:34:41'); /* Shoushi Town Treasurer */
+/* @teleloc 0xDA550015 [64.264702 106.917999 20.010000] 0.675590 0.000000 0.000000 0.737277 */

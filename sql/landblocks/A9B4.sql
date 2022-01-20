@@ -427,3 +427,7 @@ VALUES (0x7A9B46AA, 44190, 0xA9B40162, 113.846, 33.048, 94.005, -0.839277, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B46AB, 4200045, 0xA9B40002, 7.86016, 29.5933, 82.5387, 0.89377, 0, 0, -0.448525, False, '2022-01-19 20:24:58');
 /* @teleloc 0xA9B40002 [7.860160 29.593300 82.538696] 0.893770 0.000000 0.000000 -0.448525 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B46AC, 42128708, 0xA9B4000A, 40.6898, 35.3592, 81.1702, 0.976624, 0, 0, 0.214956, False, '2022-01-19 20:36:49'); /* Holtburg Town Treasurer */
+/* @teleloc 0xA9B4000A [40.689800 35.359200 81.170197] 0.976624 0.000000 0.000000 0.214956 */

@@ -331,3 +331,7 @@ VALUES (0x77D64072, 87818, 0x7D64014E, 87.8971, 37.7208, 8.056, -0.175269, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64073, 4200046, 0x7D640023, 110.962, 68.2377, 11.937, 0.998435, 0, 0, 0.055933, False, '2022-01-19 20:26:12');
 /* @teleloc 0x7D640023 [110.961998 68.237701 11.937000] 0.998435 0.000000 0.000000 0.055933 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77D64074, 42128709, 0x7D64002C, 127.221, 76.5802, 13.2135, 0.793353, 0, 0, 0.608761, False, '2022-01-19 20:32:46'); /* Yaraq Town Treasurer */
+/* @teleloc 0x7D64002C [127.221001 76.580200 13.213500] 0.793353 0.000000 0.000000 0.608761 */
