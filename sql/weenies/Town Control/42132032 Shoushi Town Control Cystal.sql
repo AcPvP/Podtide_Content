@@ -27,7 +27,7 @@ VALUES (42132032,   1,       5) /* HeartbeatInterval */
      , (42132032,   4,       5) /* StaminaRate */
      , (42132032,   5,       2) /* ManaRate */
      , (42132032,  12,       0) /* Shade */
-     , (42132032,  13,     0.6) /* ArmorModVsSlash */
+     , (42132032,  13,       1) /* ArmorModVsSlash */
      , (42132032,  14,       1) /* ArmorModVsPierce */
      , (42132032,  15,       1) /* ArmorModVsBludgeon */
      , (42132032,  16,       1) /* ArmorModVsCold */
@@ -39,13 +39,13 @@ VALUES (42132032,   1,       5) /* HeartbeatInterval */
      , (42132032,  36,       1) /* ChargeSpeed */
      , (42132032,  39,       3) /* DefaultScale */
      , (42132032,  54,       3) /* UseRadius */
-     , (42132032,  64,     0.5) /* ResistSlash */
-     , (42132032,  65,     0.5) /* ResistPierce */
-     , (42132032,  66,     0.7) /* ResistBludgeon */
-     , (42132032,  67,     0.1) /* ResistFire */
-     , (42132032,  68,     0.1) /* ResistCold */
-     , (42132032,  69,     0.1) /* ResistAcid */
-     , (42132032,  70,     0.1) /* ResistElectric */
+     , (42132032,  64,     0.3) /* ResistSlash */
+     , (42132032,  65,     0.3) /* ResistPierce */
+     , (42132032,  66,     0.3) /* ResistBludgeon */
+     , (42132032,  67,     0.3) /* ResistFire */
+     , (42132032,  68,     0.3) /* ResistCold */
+     , (42132032,  69,     0.3) /* ResistAcid */
+     , (42132032,  70,     0.3) /* ResistElectric */
      , (42132032,  71,       1) /* ResistHealthBoost */
      , (42132032,  72,       0) /* ResistStaminaDrain */
      , (42132032,  73,       1) /* ResistStaminaBoost */
@@ -76,19 +76,19 @@ VALUES (42132032,  0,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  1
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42132032,   1, 500, 0, 0) /* Strength */
      , (42132032,   2,   1, 0, 0) /* Endurance */
-     , (42132032,   3,   1, 0, 0) /* Quickness */
-     , (42132032,   4,   1, 0, 0) /* Coordination */
+     , (42132032,   3, 500, 0, 0) /* Quickness */
+     , (42132032,   4, 500, 0, 0) /* Coordination */
      , (42132032,   5, 500, 0, 0) /* Focus */
      , (42132032,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42132032,   1, 99995, 0, 0,99995) /* MaxHealth */
+VALUES (42132032,   1, 199990, 0, 0, 199990) /* MaxHealth */
      , (42132032,   3,     0, 0, 0,    1) /* MaxStamina */
      , (42132032,   5,     0, 0, 0,  500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (42132032,  6, 0, 3, 0, 169, 0, 0) /* MeleeDefense        Specialized */
-     , (42132032,  7, 0, 3, 0, 225, 0, 0) /* MissileDefense      Specialized */
+VALUES (42132032,  6, 0, 3, 0, 150, 0, 0) /* MeleeDefense        Specialized */
+     , (42132032,  7, 0, 3, 0, 250, 0, 0) /* MissileDefense      Specialized */
      , (42132032, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (42132032, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */;
 
