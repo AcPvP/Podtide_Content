@@ -10,7 +10,7 @@ VALUES (4200004,   1,        128) /* ItemType - Misc */
      , (4200004,   9,          0) /* ValidLocations - None */
      , (4200004,  16,         48) /* ItemUseable - ViewedRemote */
      , (4200004,  19,          0) /* Value */
-     , (4200004,  81,          1) /* MaxGeneratedObjects */
+     , (4200004,  81,          5) /* MaxGeneratedObjects */
      , (4200004,  82,          0) /* InitGeneratedObjects */
      , (4200004,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (4200004,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -39,3 +39,12 @@ VALUES (4200004,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4200004, -1, 4200008, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yaraq Town Control Crystal (4200008) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (4200004, -1, 4200015, 1, 1, 1, 1, 4, 0, 0, 0, 0x81640005, 20.041307, 107.961784, 30.004999, -0.708804, 0, 0, -0.705405) /* Generate Custom Chest (38457)  Location to (re)Generate: Static */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (4200004, -1, 4200015, 2, 1, 1, 1, 4, 0, 0, 0, 0x81640005, 20.041307, 105.961784, 30.004999, -0.708804, 0, 0, -0.705405) /* Generate Custom Chest (38457)  Location to (re)Generate: Static */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (4200004, -1, 4200015, 3, 1, 1, 1, 4, 0, 0, 0, 0x81640005, 20.041307, 109.961784, 30.004999, -0.708804, 0, 0, -0.705405) /* Generate Custom Chest (38457)  Location to (re)Generate: Static */;
