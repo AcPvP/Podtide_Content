@@ -12,7 +12,7 @@ VALUES (4200024,   1,       2048) /* ItemType - Gem */
      , (4200024,  13,         10) /* StackUnitEncumbrance */
      , (4200024,  15,          1) /* StackUnitValue */
      , (4200024,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (4200024,  19,          1) /* Value */
+     , (4200024,  19,         20) /* Value */
      , (4200024,  65,        101) /* Placement - Resting */
      , (4200024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4200024,  94,          6) /* TargetType - Vestements */;

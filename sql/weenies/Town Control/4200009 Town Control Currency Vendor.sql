@@ -174,7 +174,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create  (4200010) for Wield */
      , (4200009, 4, 4200022,  0, 0, 0, False) /* Create Armor Level Morph Gem (4200022) for Shop */
-     , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */;
+     , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */
+     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create Armor Work Morph Gem (4200024) for Shop */;
 
 /* Lifestoned Changelog:
 {
