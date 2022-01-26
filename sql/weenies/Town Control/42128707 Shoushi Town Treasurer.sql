@@ -186,7 +186,8 @@ VALUES (42128707, 2, 22017,  0, 21, 0.9, False) /* Create Koji's Fiend (22017) f
      , (42128707, 4, 524470,  0, 0, 0, False) /* Create Serial Killer's Satchel (524470) for Shop */
      , (42128707, 4, 4200017,  0, 0, 0, False) /* Create Town Control Trinket of Experience (4200017) for Shop */
      , (42128707, 4, 4200020,  0, 0, 0, False) /* Create Burning Blunt (4200020) for Shop */
-     , (42128707, 4, 4200012,  0, 0, 0, False) /* Create Burglers Tools (4200012) for Shop */;
+     , (42128707, 4, 4200012,  0, 0, 0, False) /* Create Burglers Tools (4200012) for Shop */
+     , (42128707, 4, 4200014,  0, 0, 0, False) /* Create Water Stasis (4200014) for Shop */;
 
 /* Lifestoned Changelog:
 {
