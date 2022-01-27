@@ -10,7 +10,7 @@ VALUES (4200010,   1,          1) /* ItemType - MeleeWeapon */
      , (4200010,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (4200010,  16,          1) /* ItemUseable - No */
      , (4200010,  19,      50000) /* Value */
-     , (4200010,  44,         80) /* Damage */
+     , (4200010,  44,         85) /* Damage */
      , (4200010,  45,          4) /* DamageType - Bludgeon */
      , (4200010,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (4200010,  47,          4) /* AttackType - Slash */
@@ -36,13 +36,13 @@ VALUES (4200010,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200010,   5,  -0.033) /* ManaRate */
      , (4200010,  21,       0) /* WeaponLength */
-     , (4200010,  22,     0.3) /* DamageVariance */
+     , (4200010,  22,     0.2) /* DamageVariance */
      , (4200010,  26,       0) /* MaximumVelocity */
      , (4200010,  29,    1.18) /* WeaponDefense */
      , (4200010,  39,       2) /* DefaultScale */
      , (4200010,  62,     1.2) /* WeaponOffense */
      , (4200010,  63,       1) /* DamageMod */
-     , (4200010, 138,    1.45) /* SlayerDamageBonus */
+     , (4200010, 138,     3.4) /* SlayerDamageBonus */
      , (4200010, 147,    0.25) /* CriticalFrequency */
      , (4200010, 151,       1) /* IgnoreShield */;
 
