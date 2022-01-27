@@ -75,14 +75,14 @@ VALUES (4200007,  0,  4, 50, 0.75,  350,  175,  175,  175,  175,  175,  175,  17
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4200007,   1, 500, 0, 0) /* Strength */
-     , (4200007,   2,   1, 0, 0) /* Endurance */
+     , (4200007,   2, 500, 0, 0) /* Endurance */
      , (4200007,   3, 500, 0, 0) /* Quickness */
      , (4200007,   4, 500, 0, 0) /* Coordination */
      , (4200007,   5, 500, 0, 0) /* Focus */
      , (4200007,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4200007,   1, 199990, 0, 0, 199990) /* MaxHealth */
+VALUES (4200007,   1, 199750, 0, 0, 199750) /* MaxHealth */
      , (4200007,   3,     0, 0, 0,    1) /* MaxStamina */
      , (4200007,   5,     0, 0, 0,  500) /* MaxMana */;
 
