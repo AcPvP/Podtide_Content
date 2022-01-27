@@ -49,11 +49,12 @@ VALUES (4200011,   5,  -0.033) /* ManaRate */
      , (4200011,  39,       2) /* DefaultScale */
      , (4200011,  62,    1.18) /* WeaponOffense */
      , (4200011,  63,       1) /* DamageMod */
-     , (4200011, 136,       3) /* CriticalMultiplier */;
+     , (4200011, 136,       3) /* CriticalMultiplier */
+     , (4200011, 138,       3) /* SlayerDamageBonus */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200011,   1, 'Gungnir') /* Name */
-     , (4200011,  16, 'This spear was crafted by Dvalinn using only the rares of metals and forged in the firey magam pools of Crater. It is so well balanced that it could strike any target, no matter the skill or strength of the wielder') /* LongDesc */;
+     , (4200011,  16, 'This spear was crafted by Dvalinn using only the rarest of metals and forged in the firey magma pools of Crater. It is so well balanced that it could strike any target, no matter the skill or strength of the wielder') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200011,   1, 0x0200135A) /* Setup */

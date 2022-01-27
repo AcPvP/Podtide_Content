@@ -10,7 +10,6 @@ VALUES (4200010,   1,          1) /* ItemType - MeleeWeapon */
      , (4200010,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (4200010,  16,          1) /* ItemUseable - No */
      , (4200010,  19,      50000) /* Value */
-     , (4200010,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (4200010,  44,         80) /* Damage */
      , (4200010,  45,          4) /* DamageType - Bludgeon */
      , (4200010,  46,          2) /* DefaultCombatStyle - OneHanded */
@@ -26,8 +25,6 @@ VALUES (4200010,   1,          1) /* ItemType - MeleeWeapon */
      , (4200010, 151,          2) /* HookType - Wall */
      , (4200010, 166,         31) /* SlayerCreatureType - Human */
      , (4200010, 179,         32) /* ImbuedEffect - BludgeonRending */
-     , (4200010, 319,         50) /* ItemMaxLevel */
-     , (4200010, 320,          1) /* ItemXpStyle - Fixed */
      , (4200010, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

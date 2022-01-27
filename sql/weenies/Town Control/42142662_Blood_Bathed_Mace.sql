@@ -10,7 +10,7 @@ VALUES (42142662,   1,          1) /* ItemType - MeleeWeapon */
      , (42142662,   9,   33554432) /* ValidLocations - TwoHanded */
      , (42142662,  16,          1) /* ItemUseable - No */
      , (42142662,  19,      50000) /* Value */
-     , (42142662,  44,         43) /* Damage */
+     , (42142662,  44,         85) /* Damage */
      , (42142662,  45,          4) /* DamageType - Bludgeon */
      , (42142662,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (42142662,  47,          4) /* AttackType - Slash */
