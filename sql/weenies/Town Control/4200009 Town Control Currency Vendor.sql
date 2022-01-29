@@ -1,26 +1,26 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4200009;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4200009, 'ace4200009-towncontrolcurrencyvendor', 12, '2022-01-17 03:43:16') /* Vendor */;
+VALUES (4200009, 'ace4200009-towncontrolcurrencyvendor', 12, '2022-01-29 01:25:28') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1,         16) /* ItemType - Creature */
+     , (4200009,   2,         30) /* CreatureType - Skeleton */
      , (4200009,   3,         14) /* PaletteTemplate - Red */
      , (4200009,   6,         -1) /* ItemsCapacity */
      , (4200009,   7,         -1) /* ContainersCapacity */
      , (4200009,   8,        120) /* Mass */
      , (4200009,  16,         32) /* ItemUseable - Remote */
      , (4200009,  25,        275) /* Level */
-     , (4200009,  27,          0) /* ArmorType - None */
      , (4200009,  74,     270496) /* MerchandiseItemTypes - Food, Misc, Writable, PromissoryNote */
      , (4200009,  75,          0) /* MerchandiseMinValue */
      , (4200009,  76,    1000000) /* MerchandiseMaxValue */
      , (4200009,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
+     , (4200009, 113,          1) /* Gender - Male */
      , (4200009, 126,        500) /* VendorHappyMean */
      , (4200009, 127,        500) /* VendorHappyVariance */
      , (4200009, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4200009, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4200009, 146,         97) /* XpOverride */;
+     , (4200009, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1, True ) /* Stuck */
@@ -37,31 +37,12 @@ VALUES (4200009,   1,       5) /* HeartbeatInterval */
      , (4200009,   4,       5) /* StaminaRate */
      , (4200009,   5,       1) /* ManaRate */
      , (4200009,  11,     300) /* ResetInterval */
-     , (4200009,  13,     0.9) /* ArmorModVsSlash */
-     , (4200009,  14,       1) /* ArmorModVsPierce */
-     , (4200009,  15,     1.1) /* ArmorModVsBludgeon */
-     , (4200009,  16,     0.4) /* ArmorModVsCold */
-     , (4200009,  17,     0.4) /* ArmorModVsFire */
-     , (4200009,  18,       1) /* ArmorModVsAcid */
-     , (4200009,  19,     0.6) /* ArmorModVsElectric */
+     , (4200009,  12,       0) /* Shade */
      , (4200009,  37,       1) /* BuyPrice */
      , (4200009,  38,       1) /* SellPrice */
-     , (4200009,  39,       2) /* DefaultScale */
+     , (4200009,  39,     1.4) /* DefaultScale */
      , (4200009,  54,       5) /* UseRadius */
-     , (4200009,  64,       1) /* ResistSlash */
-     , (4200009,  65,       1) /* ResistPierce */
-     , (4200009,  66,       1) /* ResistBludgeon */
-     , (4200009,  67,       1) /* ResistFire */
-     , (4200009,  68,       1) /* ResistCold */
-     , (4200009,  69,       1) /* ResistAcid */
-     , (4200009,  70,       1) /* ResistElectric */
-     , (4200009,  71,       1) /* ResistHealthBoost */
-     , (4200009,  72,       1) /* ResistStaminaDrain */
-     , (4200009,  73,       1) /* ResistStaminaBoost */
-     , (4200009,  74,       1) /* ResistManaDrain */
-     , (4200009,  75,       1) /* ResistManaBoost */
-     , (4200009, 104,      10) /* ObviousRadarRange */
-     , (4200009, 125,       1) /* ResistHealthDrain */;
+     , (4200009,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1, 'Town Control Currency Vendor') /* Name */
@@ -71,6 +52,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1, 0x02001C0C) /* Setup */
      , (4200009,   2, 0x09000001) /* MotionTable */
      , (4200009,   3, 0x20000001) /* SoundTable */
+     , (4200009,   6, 0x0400007E) /* PaletteBase */
      , (4200009,   7, 0x10000869) /* ClothingBase */
      , (4200009,   8, 0x06001036) /* Icon */
      , (4200009,  57,   42127923) /* AlternateCurrency - A Phial of Innocent Tears */;
@@ -172,17 +154,38 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create  (4200010) for Wield */
+VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create Protector's Spike (4200010) for Wield */
      , (4200009, 4, 4200022,  0, 0, 0, False) /* Create Armor Level Morph Gem (4200022) for Shop */
      , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */
-     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create Armor Work Morph Gem (4200024) for Shop */;
+     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create  (4200024) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-01-16T21:25:16.8090056-05:00",
-  "ModifiedBy": "Tindale",
-  "Changelog": [],
-  "UserChangeSummary": "Town control vendor",
+  "LastModified": "2022-01-29T01:24:10.1329537Z",
+  "ModifiedBy": "ACE.Adapter",
+  "Changelog": [
+    {
+      "created": "2022-01-17T04:05:01.8657325Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-28T02:43:13.995651Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-28T02:44:13.3430739Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-29T01:24:10.1272464Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
   "IsDone": false
 }
 */
