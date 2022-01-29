@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200076,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4200076,   1, 'Town Master\'s Portal to Ayan Baqur') /* Name -- TODO - Quest Rescriction*/;
+VALUES (4200076,   1, 'Ayan Baqur') /* Name -- TODO - Quest Rescriction*/;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200076,   1, 0x020001B3) /* Setup */

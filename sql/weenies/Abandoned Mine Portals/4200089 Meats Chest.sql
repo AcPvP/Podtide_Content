@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200089,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4200089,   1, 'Town Master\'s Portal to Meats Chest') /* Name --*/;
+VALUES (4200089,   1, 'Meats Chest') /* Name --*/;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200089,   1, 0x020001B3) /* Setup */
