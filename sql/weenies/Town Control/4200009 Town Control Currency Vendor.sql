@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4200009;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4200009, 'ace4200009-towncontrolcurrencyvendor', 12, '2022-01-17 03:43:16') /* Vendor */;
+VALUES (4200009, 'ace4200009-towncontrolcurrencyvendor', 12, '2022-01-29 01:25:28') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1,         16) /* ItemType - Creature */
@@ -42,7 +42,7 @@ VALUES (4200009,   1,       5) /* HeartbeatInterval */
      , (4200009,  38,       1) /* SellPrice */
      , (4200009,  39,     1.4) /* DefaultScale */
      , (4200009,  54,       5) /* UseRadius */
-     , (4200009,  76,      .2) /* Translucency */;
+     , (4200009,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1, 'Town Control Currency Vendor') /* Name */
@@ -53,8 +53,8 @@ VALUES (4200009,   1, 0x02001C0C) /* Setup */
      , (4200009,   2, 0x09000001) /* MotionTable */
      , (4200009,   3, 0x20000001) /* SoundTable */
      , (4200009,   6, 0x0400007E) /* PaletteBase */
-     , (4200009,   7, 268437609) /* ClothingBase */
-     , (4200009,   8, 100667446) /* Icon */
+     , (4200009,   7, 0x10000869) /* ClothingBase */
+     , (4200009,   8, 0x06001036) /* Icon */
      , (4200009,  57,   42127923) /* AlternateCurrency - A Phial of Innocent Tears */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -154,16 +154,38 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000083 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create  (4200010) for Wield */
+VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create Protector's Spike (4200010) for Wield */
      , (4200009, 4, 4200022,  0, 0, 0, False) /* Create Armor Level Morph Gem (4200022) for Shop */
-     , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */;
+     , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */
+     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create  (4200024) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-01-16T21:25:16.8090056-05:00",
-  "ModifiedBy": "Tindale",
-  "Changelog": [],
-  "UserChangeSummary": "Town control vendor",
+  "LastModified": "2022-01-29T01:24:10.1329537Z",
+  "ModifiedBy": "ACE.Adapter",
+  "Changelog": [
+    {
+      "created": "2022-01-17T04:05:01.8657325Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-28T02:43:13.995651Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-28T02:44:13.3430739Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-01-29T01:24:10.1272464Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
   "IsDone": false
 }
 */
