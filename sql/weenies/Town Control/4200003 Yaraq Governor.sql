@@ -33,25 +33,25 @@ VALUES (4200003,   1,     1.5) /* HeartbeatInterval */
      , (4200003,   4,     100) /* StaminaRate */
      , (4200003,   5,       3) /* ManaRate */
      , (4200003,  12,    0.16) /* Shade */
-     , (4200003,  13,     1.9) /* ArmorModVsSlash */
-     , (4200003,  14,     1.9) /* ArmorModVsPierce */
-     , (4200003,  15,     1.8) /* ArmorModVsBludgeon */
-     , (4200003,  16,     1.7) /* ArmorModVsCold */
-     , (4200003,  17,       2) /* ArmorModVsFire */
-     , (4200003,  18,     1.7) /* ArmorModVsAcid */
+     , (4200003,  13,     1.5) /* ArmorModVsSlash */
+     , (4200003,  14,     2) /* ArmorModVsPierce */
+     , (4200003,  15,     2) /* ArmorModVsBludgeon */
+     , (4200003,  16,     2) /* ArmorModVsCold */
+     , (4200003,  17,       1.5) /* ArmorModVsFire */
+     , (4200003,  18,     2) /* ArmorModVsAcid */
      , (4200003,  19,       2) /* ArmorModVsElectric */
      , (4200003,  31,       5) /* VisualAwarenessRange */
      , (4200003,  34,       1) /* PowerupTime */
      , (4200003,  36,       1) /* ChargeSpeed */
      , (4200003,  39,     2.1) /* DefaultScale */
      , (4200003,  55,      45) /* HomeRadius */
-     , (4200003,  64,     0.4) /* ResistSlash */
+     , (4200003,  64,     1) /* ResistSlash */
      , (4200003,  65,     0.5) /* ResistPierce */
      , (4200003,  66,     0.5) /* ResistBludgeon */
-     , (4200003,  67,     0.4) /* ResistFire */
-     , (4200003,  68,     0.9) /* ResistCold */
-     , (4200003,  69,     0.9) /* ResistAcid */
-     , (4200003,  70,     0.4) /* ResistElectric */
+     , (4200003,  67,     1) /* ResistFire */
+     , (4200003,  68,     0.5) /* ResistCold */
+     , (4200003,  69,     0.5) /* ResistAcid */
+     , (4200003,  70,     0.5) /* ResistElectric */
      , (4200003,  80,       3) /* AiUseMagicDelay */
      , (4200003, 104,      10) /* ObviousRadarRange */
      , (4200003, 117,     0.5) /* FocusedProbability */
