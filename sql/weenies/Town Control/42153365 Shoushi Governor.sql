@@ -12,7 +12,7 @@ VALUES (42153365,   1,         16) /* ItemType - Creature */
      , (42153365,  16,          1) /* ItemUseable - No */
      , (42153365,  25,        420) /* Level */
      , (42153365,  67,         64) /* Tolerance - Retaliate */
-     , (42153365,  68,          3) /* TargetingTactic - Random, Focused */
+     , (42153365,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (42153365,  70,          1) /* HomesickTargetingTactic - Random */
      , (42153365,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (42153365, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -12,7 +12,7 @@ VALUES (4200003,   1,         16) /* ItemType - Creature */
      , (4200003,  16,          1) /* ItemUseable - No */
      , (4200003,  25,        420) /* Level */
      , (4200003,  67,         64) /* Tolerance - Retaliate */
-     , (4200003,  68,          3) /* TargetingTactic - Random, Focused */
+     , (4200003,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (4200003,  70,          1) /* HomesickTargetingTactic - Random */
      , (4200003,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (4200003, 133,          2) /* ShowableOnRadar - ShowMovement */
