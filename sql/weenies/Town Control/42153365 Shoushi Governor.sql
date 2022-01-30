@@ -33,9 +33,9 @@ VALUES (42153365,   1,     1.5) /* HeartbeatInterval */
      , (42153365,   4,     100) /* StaminaRate */
      , (42153365,   5,       3) /* ManaRate */
      , (42153365,  12,    0.16) /* Shade */
-     , (42153365,  13,     2) /* ArmorModVsSlash */
-     , (42153365,  14,     2) /* ArmorModVsPierce */
-     , (42153365,  15,     2) /* ArmorModVsBludgeon */
+     , (42153365,  13,       2) /* ArmorModVsSlash */
+     , (42153365,  14,       2) /* ArmorModVsPierce */
+     , (42153365,  15,       2) /* ArmorModVsBludgeon */
      , (42153365,  16,     1.5) /* ArmorModVsCold */
      , (42153365,  17,       2) /* ArmorModVsFire */
      , (42153365,  18,     1.5) /* ArmorModVsAcid */
@@ -49,8 +49,8 @@ VALUES (42153365,   1,     1.5) /* HeartbeatInterval */
      , (42153365,  65,     0.5) /* ResistPierce */
      , (42153365,  66,     0.5) /* ResistBludgeon */
      , (42153365,  67,     0.5) /* ResistFire */
-     , (42153365,  68,     1) /* ResistCold */
-     , (42153365,  69,     1) /* ResistAcid */
+     , (42153365,  68,       1) /* ResistCold */
+     , (42153365,  69,       1) /* ResistAcid */
      , (42153365,  70,     0.5) /* ResistElectric */
      , (42153365,  80,       3) /* AiUseMagicDelay */
      , (42153365, 104,      10) /* ObviousRadarRange */
@@ -85,7 +85,7 @@ VALUES (42153365,  16, 0x7DE51014) /* ActivationTarget */;
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42153365,   1, 400, 0, 0) /* Strength */
      , (42153365,   2, 400, 0, 0) /* Endurance */
-     , (42153365,   3, 400, 0, 0) /* Quickness */
+     , (42153365,   3, 250, 0, 0) /* Quickness */
      , (42153365,   4, 400, 0, 0) /* Coordination */
      , (42153365,   5, 500, 0, 0) /* Focus */
      , (42153365,   6, 500, 0, 0) /* Self */;
@@ -96,13 +96,13 @@ VALUES (42153365,   1, 99800, 0, 0, 5) /* MaxHealth */
      , (42153365,   5,  4500, 0, 0, 0) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (42153365,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
+VALUES (42153365,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
      , (42153365,  7, 0, 2, 0, 400, 0, 0) /* MissileDefense      Trained */
      , (42153365, 15, 0, 2, 0, 275, 0, 0) /* MagicDefense        Trained */
      , (42153365, 16, 0, 2, 0, 280, 0, 0) /* ManaConversion      Trained */
      , (42153365, 31, 0, 2, 0, 280, 0, 0) /* CreatureEnchantment Trained */
      , (42153365, 33, 0, 2, 0, 280, 0, 0) /* LifeMagic           Trained */
-     , (42153365, 34, 0, 2, 0, 280, 0, 0) /* WarMagic            Trained */
+     , (42153365, 34, 0, 2, 0, 400, 0, 0) /* WarMagic            Trained */
      , (42153365, 41, 0, 2, 0, 500, 0, 0) /* TwoHandedCombat     Trained */
      , (42153365, 43, 0, 2, 0, 280, 0, 0) /* VoidMagic           Trained */
      , (42153365, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
@@ -124,7 +124,7 @@ VALUES (42153365,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  2
      , (42153365,  8,  4, 600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42153365,  4312,   2.05)  /* Incantation of Imperil Other */
+VALUES (42153365,  4312,   2.10)  /* Incantation of Imperil Other */
      , (42153365,  4483,  2.105)  /* Incantation of Lightning Vulnerability Other */
      , (42153365,  6198,  2.118)  /* Incantation of Lightning Bolt */
      , (42153365,  6199,  2.133)  /* Incantation of Lightning Arc */;
@@ -139,7 +139,18 @@ VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
      , (@parent_id,  1,  77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42153365, 14 /* Taunt */,   0.08, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42153365, 14 /* Taunt */,   0.082, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   7 /* PhysScript */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 144 /* CampingMastery */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'Shoushi Governor begins casting Violet Rain! RUN!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,   5 /* Motion */, 3, 1, 0x430000F2 /* AkimboState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  19 /* CastSpellInstant */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4097 /* Violet Rain */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (42153365, 14 /* Taunt */,   0.085, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -150,7 +161,7 @@ VALUES (@parent_id,  0,   7 /* PhysScript */, 1, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  3,  19 /* CastSpellInstant */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6168 /* Deadly Ring of Lightning */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42153365, 14 /* Taunt */,   0.08, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42153365, 14 /* Taunt */,   0.081, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
