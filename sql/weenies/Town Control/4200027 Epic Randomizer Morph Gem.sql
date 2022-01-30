@@ -34,7 +34,6 @@ VALUES (4200027,   1, 0x02000179) /* Setup */
      , (4200027,   3, 0x20000014) /* SoundTable */
      , (4200027,   6, 0x04000BEF) /* PaletteBase */
      , (4200027,   7, 0x1000010B) /* ClothingBase */
-     , (4200027,   8, 0x06002971) /* Icon */
      , (4200027,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4200027,  50,  100689827) /* IconOverlay */
      , (4200027,  52, 0x060065FB) /* IconUnderlay */;
