@@ -38,7 +38,7 @@ VALUES (4200015,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200015,   1, 'Conflict Chest') /* Name */
-     , (4200015,  12, '_Conflict_Chest_key_') /* LockCode */
+     , (4200015,  12, 'legpotato10_10') /* LockCode */
      , (4200015,  14, 'Use this item to open it and see its contents.') /* Use */
      , (4200015,  16, 'A chest containing the highest quality mixed gear. ') /* LongDesc */;
 

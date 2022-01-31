@@ -186,7 +186,8 @@ VALUES (42128708, 2, 22015,  0, 21, 0.9, False) /* Create Pwyll's Guard (22015) 
      , (42128708, 4, 524470,  0, 0, 0, False) /* Create Serial Killer's Satchel (524470) for Shop */
      , (42128708, 4, 4200017,  0, 0, 0, False) /* Create Town Control Trinket of Experience (4200017) for Shop */
      , (42128708, 4, 4200018,  0, 0, 0, False) /* Create Ground Anus (4200018) for Shop */
-     , (42128708, 4, 4200019,  0, 0, 0, False) /* Create A Fuckin' Bang (4200019) for Shop */;
+     , (42128708, 4, 4200019,  0, 0, 0, False) /* Create A Fuckin' Bang (4200019) for Shop */
+     , (42128708, 4, 4200012,  0, 0, 0, False) /* Create Burglers Tools (4200012) for Shop */;
 
 /* Lifestoned Changelog:
 {
