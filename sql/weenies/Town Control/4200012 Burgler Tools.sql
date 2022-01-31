@@ -23,7 +23,7 @@ VALUES (4200012,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200012,   1, 'Burgler''s Tool') /* Name */
      , (4200012,  13, '_Conflict_Chest_key_') /* KeyCode */
-     , (4200012,  14, 'Use this key to unlock Conflict Chests.') /* Use */
+     , (4200012,  14, 'Use this key to unlock anything.') /* Use */
      , (4200012,  15, 'This tool is the go to Burgler Item, it seem''s to pop even the most difficult locks') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
