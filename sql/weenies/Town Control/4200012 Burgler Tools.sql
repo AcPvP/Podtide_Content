@@ -9,7 +9,7 @@ VALUES (4200012,   1,      16384) /* ItemType - Key */
      , (4200012,   8,          5) /* Mass */
      , (4200012,  18,          1) /* UiEffects - Magical */
      , (4200012,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (4200012,  19,        300) /* Value */
+     , (4200012,  19,        500) /* Value */
      , (4200012,  33,         -1) /* Bonded - Slippery */
      , (4200012,  91,          5) /* MaxStructure */
      , (4200012,  92,          5) /* Structure */
