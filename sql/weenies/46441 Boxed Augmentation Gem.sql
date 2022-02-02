@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46441;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46441, 'ace46441-boxedaugmentationgem', 38, '2022-02-01 00:42:25') /* Gem */;
+VALUES (46441, 'ace46441-boxedaugmentationgem', 38, '2022-02-02 03:10:22') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46441,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,7 @@ VALUES (46441,   1,        128) /* ItemType - Misc */
      , (46441,  11,          1) /* MaxStackSize */
      , (46441,  12,          1) /* StackSize */
      , (46441,  13,         50) /* StackUnitEncumbrance */
-     , (46441,  15,          3) /* StackUnitValue */
+     , (46441,  15,          1) /* StackUnitValue */
      , (46441,  16,          8) /* ItemUseable - Contained */
      , (46441,  19,          1) /* Value */
      , (46441,  33,          1) /* Bonded - Bonded */
