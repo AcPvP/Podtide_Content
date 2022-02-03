@@ -18,7 +18,8 @@ VALUES (4200015,   1,        512) /* ItemType - Container */
      , (4200015,  83,          2) /* ActivationResponse - Use */
      , (4200015,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (4200015,  96,        500) /* EncumbranceCapacity */
-     , (4200015, 100,          1) /* GeneratorType - Relative */;
+     , (4200015, 100,          1) /* GeneratorType - Relative */
+     , (4200015, 267,       1800) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4200015,   1, True ) /* Stuck */
@@ -33,8 +34,7 @@ VALUES (4200015,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200015,  39, 1.10000002384186) /* DefaultScale */
-     , (4200015,  54,       1) /* UseRadius */
-     , (4200015,  44,    1800) /* TimetoRot */;
+     , (4200015,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200015,   1, 'Conflict Chest') /* Name */
