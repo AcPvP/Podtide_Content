@@ -157,7 +157,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create Protector's Spike (4200010) for Wield */
      , (4200009, 4, 4200022,  0, 0, 0, False) /* Create Armor Level Morph Gem (4200022) for Shop */
      , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */
-     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create Armor Workmanship Morph Gem (4200024) for Shop */;
+     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create Armor Workmanship Morph Gem (4200024) for Shop */
+     , (4200009, 4, 4200026,  0, 0, 0, False) /* Create Arcane Lore Morph Gem (4200024) for Shop */;
 
 /* Lifestoned Changelog:
 {
