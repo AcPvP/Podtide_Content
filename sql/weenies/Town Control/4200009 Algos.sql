@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4200009;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4200009, 'ace4200009-towncontrolcurrencyvendor', 12, '2022-01-29 01:25:28') /* Vendor */;
+VALUES (4200009, 'ace4200009-algos', 12, '2022-02-02 04:15:34') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1,         16) /* ItemType - Creature */
@@ -45,8 +45,8 @@ VALUES (4200009,   1,       5) /* HeartbeatInterval */
      , (4200009,  76,     0.2) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4200009,   1, 'Town Control Currency Vendor') /* Name */
-     , (4200009,   5, 'Vendor') /* Template */;
+VALUES (4200009,   1, 'Algos') /* Name */
+     , (4200009,   5, 'God of Tears') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200009,   1, 0x02001C0C) /* Setup */
@@ -157,11 +157,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create Protector's Spike (4200010) for Wield */
      , (4200009, 4, 4200022,  0, 0, 0, False) /* Create Armor Level Morph Gem (4200022) for Shop */
      , (4200009, 4, 4200023,  0, 0, 0, False) /* Create Armor Value Morph Gem (4200023) for Shop */
-     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create  (4200024) for Shop */;
+     , (4200009, 4, 4200024,  0, 0, 0, False) /* Create Armor Workmanship Morph Gem (4200024) for Shop */;
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2022-01-29T01:24:10.1329537Z",
+  "LastModified": "2022-02-02T00:43:53.9380998Z",
   "ModifiedBy": "ACE.Adapter",
   "Changelog": [
     {
@@ -181,6 +181,11 @@ VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create Protector's Spike (42000
     },
     {
       "created": "2022-01-29T01:24:10.1272464Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-02-02T00:43:53.9260516Z",
       "author": "ACE.Adapter",
       "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
     }
