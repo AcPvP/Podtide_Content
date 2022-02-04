@@ -13,7 +13,6 @@ VALUES (4200001,   1,         16) /* ItemType - Creature */
      , (4200001,  25,        420) /* Level */
      , (4200001,  67,         64) /* Tolerance - Retaliate */
      , (4200001,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (4200001,  70,          1) /* HomesickTargetingTactic - Random */
      , (4200001,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (4200001, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4200001, 386,         10) /* Overpower */;
@@ -22,6 +21,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4200001,   1, True ) /* Stuck */
      , (4200001,   6, True ) /* AiUsesMana */
      , (4200001,  12, True ) /* ReportCollisions */
+     , (4200001,  13, True ) /* Ethreal */
      , (4200001,  14, True ) /* GravityStatus */
      , (4200001,  19, True ) /* Attackable */
      , (4200001,  42, True ) /* AllowEdgeSlide */;
