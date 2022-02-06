@@ -13,7 +13,7 @@ VALUES (4200015,   1,        512) /* ItemType - Container */
      , (4200015,  19,       2500) /* Value */
      , (4200015,  37,        240) /* ResistItemAppraisal */
      , (4200015,  38,       9000) /* ResistLockpick */
-     , (4200015,  81,          5) /* MaxGeneratedObjects */
+     , (4200015,  81,         10) /* MaxGeneratedObjects */
      , (4200015,  82,          5) /* InitGeneratedObjects */
      , (4200015,  83,          2) /* ActivationResponse - Use */
      , (4200015,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
