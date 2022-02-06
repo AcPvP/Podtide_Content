@@ -12,7 +12,7 @@ VALUES (4200021,   1,        128) /* ItemType - Misc */
      , (4200021,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (4200021,  19,         25) /* Value */
      , (4200021,  89,          2) /* BoosterEnum - Health */
-     , (4200021,  90,        120) /* BoostValue */
+     , (4200021,  90,        140) /* BoostValue */
      , (4200021,  91,        100) /* MaxStructure */
      , (4200021,  92,        100) /* Structure */
      , (4200021, 114,          1) /* Attuned - Attuned */
@@ -27,7 +27,7 @@ VALUES (4200021,  22,      True ) /* Inscribable */
      , (4200021,  63,      True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4200021, 100,        1.6) /* HealkitMod */;
+VALUES (4200021, 100,        1.75) /* HealkitMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200021,   1, 'Covid Vaccine') /* Name */

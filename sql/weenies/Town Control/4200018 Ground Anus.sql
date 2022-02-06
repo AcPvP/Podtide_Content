@@ -12,7 +12,7 @@ VALUES (4200018,   1,         32) /* ItemType - Food */
      , (4200018,  16,          8) /* ItemUseable - Contained */
      , (4200018,  19,         25) /* Value */
      , (4200018,  89,          2) /* BoosterEnum - Health */
-     , (4200018,  90,        130) /* BoostValue */
+     , (4200018,  90,        140) /* BoostValue */
      , (4200018,  33,          1) /* Bonded */
      , (4200018, 114,          1) /* Attuned */
      , (4200018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
