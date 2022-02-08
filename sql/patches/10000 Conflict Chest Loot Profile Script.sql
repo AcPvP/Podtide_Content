@@ -1,19 +1,40 @@
 DELETE FROM ace_world.treasure_death WHERE treasure_Type = 10000;
 
-INSERT INTO ace_world.treasure_death SET
-  treasure_Type = 10000,
-  tier = 8,
-  loot_Quality_Mod = 0.85,
-  unknown_Chances = 19,
-  item_Chance = 0,
-  item_Min_Amount = 0,
-  item_Max_Amount = 0,
-  item_Treasure_Type_Selection_Chances = 0,
-  magic_Item_Chance = 100,
-  magic_Item_Min_Amount = 5,
-  magic_Item_Max_Amount = 10,
-  magic_Item_Treasure_Type_Selection_Chances = 22,
-  mundane_Item_Chance = 100,
-  mundane_Item_Min_Amount = 0,
-  mundane_Item_Max_Amount = 0,
-  mundane_Item_Type_Selection_Chances=0,
+INSERT INTO ace_world.treasure_death
+(
+  treasure_Type,
+  tier,
+  loot_Quality_Mod,
+  unknown_Chances,
+  item_Chance,
+  item_Min_Amount,
+  item_Max_Amount,
+  item_Treasure_Type_Selection_Chances,
+  magic_Item_Chance,
+  magic_Item_Min_Amount,
+  magic_Item_Max_Amount,
+  magic_Item_Treasure_Type_Selection_Chances,
+  mundane_Item_Chance,
+  mundane_Item_Min_Amount,
+  mundane_Item_Max_Amount,
+  mundane_Item_Type_Selection_Chances
+)
+VALUES
+(  
+  10000,
+  8,
+  0.85,
+  19,
+  0,
+  0,
+  0,
+  0,
+  100,
+  5,
+  10,
+  22,
+  100,
+  0,
+  0,
+  0
+)
