@@ -11,7 +11,6 @@ VALUES (4200097,   1,          2) /* ItemType - Armor */
      , (4200097,   8,         90) /* Mass */
      , (4200097,   9,        256) /* ValidLocations - FootWear */
      , (4200097,  16,          1) /* ItemUseable - No */
-     , (4200097,  17,        226) /* RareId */
      , (4200097,  19,         20) /* Value */
      , (4200097,  27,          2) /* ArmorType - Leather */
      , (4200097,  28,          1) /* ArmorLevel */
