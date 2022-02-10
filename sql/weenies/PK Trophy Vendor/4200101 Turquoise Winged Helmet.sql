@@ -6,7 +6,7 @@ VALUES (4200101, 'helmetgromniewingedtailor', 2, '2005-02-09 10:00:00') /* Cloth
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200101,   1,          2) /* ItemType - Armor */
      , (4200101,   3,          1) /* PaletteTemplate - AquaBlue */
-     , (4200101,   4,          1) /* ClothingPriority - Head */
+     , (4200101,   4,      16384) /* ClothingPriority - Head */
      , (4200101,   5,          1) /* EncumbranceVal */
      , (4200101,   8,        125) /* Mass */
      , (4200101,   9,          1) /* ValidLocations - HeadWear */
