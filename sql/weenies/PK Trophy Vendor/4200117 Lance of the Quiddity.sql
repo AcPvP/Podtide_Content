@@ -23,8 +23,7 @@ VALUES (4200117,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4200117,  15, True ) /* LightsStatus */
-     , (4200117,  22, True ) /* Inscribable */
-     , (4200117,  23, True ) /* DestroyOnSell */;
+     , (4200117,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200117,   5,  -0.025) /* ManaRate */

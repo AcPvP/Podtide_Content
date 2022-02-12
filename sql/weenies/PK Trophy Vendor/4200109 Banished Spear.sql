@@ -28,8 +28,7 @@ VALUES (4200109,  11, True ) /* IgnoreCollisions */
      , (4200109,  13, True ) /* Ethereal */
      , (4200109,  14, True ) /* GravityStatus */
      , (4200109,  19, True ) /* Attackable */
-     , (4200109,  22, True ) /* Inscribable */
-     , (4200109,  23, True ) /* DestroyOnSell */;
+     , (4200109,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200109,   5,  -0.033) /* ManaRate */
@@ -39,8 +38,7 @@ VALUES (4200109,   5,  -0.033) /* ManaRate */
      , (4200109,  29,    1.06) /* WeaponDefense */
      , (4200109,  39,       1) /* DefaultScale */
      , (4200109,  62,    1.06) /* WeaponOffense */
-     , (4200109,  63,       1) /* DamageMod */
-     , (4200109, 136,       3) /* CriticalMultiplier */;
+     , (4200109,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200109,   1, 'Banished Spear') /* Name */;

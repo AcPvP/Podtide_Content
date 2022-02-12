@@ -31,10 +31,7 @@ VALUES (4200106,   5,   -0.05) /* ManaRate */
      , (4200106,  26,       0) /* MaximumVelocity */
      , (4200106,  29,    1.15) /* WeaponDefense */
      , (4200106,  62,     1.1) /* WeaponOffense */
-     , (4200106,  63,       1) /* DamageMod */
-     , (4200106, 136,       4) /* CriticalMultiplier */
-     , (4200106, 147,     0.2) /* CriticalFrequency */
-     , (4200106, 156,   0.075) /* ProcSpellRate */;
+     , (4200106,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200106,   1, 'Royal Runed Partizan') /* Name */

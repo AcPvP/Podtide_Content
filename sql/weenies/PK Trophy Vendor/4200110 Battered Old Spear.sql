@@ -37,8 +37,7 @@ VALUES (4200110,   5,  -0.025) /* ManaRate */
      , (4200110,  26,       0) /* MaximumVelocity */
      , (4200110,  29,    1.05) /* WeaponDefense */
      , (4200110,  62,    1.05) /* WeaponOffense */
-     , (4200110,  63,       1) /* DamageMod */
-     , (4200110, 155,       1) /* IgnoreArmor */;
+     , (4200110,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200110,   1, 'Battered Old Spear') /* Name */;

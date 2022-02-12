@@ -25,8 +25,7 @@ VALUES (4200107,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4200107,  15, True ) /* LightsStatus */
-     , (4200107,  22, True ) /* Inscribable */
-     , (4200107,  23, True ) /* DestroyOnSell */;
+     , (4200107,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200107,   5,  -0.025) /* ManaRate */
@@ -34,8 +33,7 @@ VALUES (4200107,   5,  -0.025) /* ManaRate */
      , (4200107,  22,    0.95) /* DamageVariance */
      , (4200107,  29,    1.06) /* WeaponDefense */
      , (4200107,  39,     1.2) /* DefaultScale */
-     , (4200107,  62,    1.06) /* WeaponOffense */
-     , (4200107, 151,       1) /* IgnoreShield */;
+     , (4200107,  62,    1.06) /* WeaponOffense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4200107,   1, 'Assault Spear') /* Name */
