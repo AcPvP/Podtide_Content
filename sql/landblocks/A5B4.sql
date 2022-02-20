@@ -68,7 +68,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7A5B4013, 0x7A5B4012, '2021-11-01 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A5B4014,  3951, 0xA5B4002D, 140.216, 108.324, 54.1089, 0.138897, 0, 0, -0.990307, False, '2022-01-11 18:10:03'); /* Linkable Monster Gen (1 hour) */
+VALUES (0x7A5B4014,  4200047, 0xA5B4002D, 140.216, 108.324, 54.1089, 0.138897, 0, 0, -0.990307, False, '2022-01-11 18:10:03'); /* Linkable Monster Gen (2 hours) */
 /* @teleloc 0xA5B4002D [140.216003 108.323997 54.108898] 0.138897 0.000000 0.000000 -0.990307 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

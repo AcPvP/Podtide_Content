@@ -56,7 +56,7 @@ VALUES (4200007,   1,       5) /* HeartbeatInterval */
      , (4200007, 125,       0) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4200007,   1, 'Town Control Cystal') /* Name */;
+VALUES (4200007,   1, 'Town Control Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4200007,   1, 0x02000AAF) /* Setup */
@@ -82,7 +82,7 @@ VALUES (4200007,   1, 500, 0, 0) /* Strength */
      , (4200007,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4200007,   1, 399750, 0, 0, 399750) /* MaxHealth */
+VALUES (4200007,   1, 499750, 0, 0, 499750) /* MaxHealth */
      , (4200007,   3,     0, 0, 0,    1) /* MaxStamina */
      , (4200007,   5,     0, 0, 0,  500) /* MaxMana */;
 
