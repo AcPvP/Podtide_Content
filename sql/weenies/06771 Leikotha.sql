@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6771;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6771, 'mumiyahgreatercrimsonhaft', 10, '2022-01-28 04:19:06') /* Creature */;
+VALUES (6771, 'mumiyahgreatercrimsonhaft', 10, '2022-02-28 02:15:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6771,   1,         16) /* ItemType - Creature */
@@ -322,7 +322,7 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Ai, another comes, breaking mine wretched musings. Why have you come to this sandy tomb, filled with unnatural beasts? Is your heart filled with greed, seeking what treasures may lay within? Or is your heart of a more noble nature, perhaps seeking to release me from this torment? It matters not, for I have but one thing to offer you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 6777 /* Broken Haft */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'Like so many things found on this unhappy world, it is broken. Once though it belonged to a friend. One like thee. One who hoped to release me. Ai, he failed... he failed.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Take the haft, I would see it used again in his name than have it stay with me and crumble to dust. If thou have no use for the Haft, I would still see it as it once was. Return the haft to me, repaired, and I will reward thee. Those that surround me speak of one of thy kind who may know how to set it to order once more. Look for her at 1.7 S, 36.6 E.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -482,13 +482,21 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Leikotha tilts h
 
 /* Lifestoned Changelog:
 {
+  "LastModified": "2022-02-28T02:11:09.2437872Z",
+  "ModifiedBy": "ACE.Adapter",
   "Changelog": [
     {
       "created": "2022-01-28T03:48:38.0317628Z",
       "author": "ACE.Adapter",
       "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "2022-02-28T02:11:09.1535208Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
     }
   ],
+  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
   "IsDone": false
 }
 */
