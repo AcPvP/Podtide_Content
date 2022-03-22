@@ -1,59 +1,59 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x01C9;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9000,  4200089, 0x01C90100, 63.0237, -180, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Key to Meats Chest */
+VALUES (0x701C9000, 4200089, 0x01C90100, 63.0237, -180, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Meats Chest */
 /* @teleloc 0x01C90100 [63.023701 -180.000000 -72.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9001,  4200088, 0x01C90101, 63.0237, -190, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Meats Key */
+VALUES (0x701C9001, 4200088, 0x01C90101, 63.0237, -190, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Meats Key */
 /* @teleloc 0x01C90101 [63.023701 -190.000000 -72.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9002,  4200087, 0x01C90102, 70, -174.75, -72, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Town Master's Portal to One Ten Duels */
+VALUES (0x701C9002, 4200087, 0x01C90102, 70, -174.75, -72, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal to One Ten Duels */
 /* @teleloc 0x01C90102 [70.000000 -174.750000 -72.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9003,  4200086, 0x01C90107, 70, -196.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Cell's of the Black Book */
+VALUES (0x701C9003, 4200086, 0x01C90107, 70, -196.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Cells of the Black Book */
 /* @teleloc 0x01C90107 [70.000000 -196.975998 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9004,  4200085, 0x01C90108, 83.0237, -160, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Lighthouse Hermit */
+VALUES (0x701C9004, 4200085, 0x01C90108, 83.0237, -160, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Lighthouse Hermit */
 /* @teleloc 0x01C90108 [83.023697 -160.000000 -72.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9005,  4200084, 0x01C9010D, 83.0237, -210, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Crater Village */
+VALUES (0x701C9005, 4200084, 0x01C9010D, 83.0237, -210, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Crater Village */
 /* @teleloc 0x01C9010D [83.023697 -210.000000 -72.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9006,  4200083, 0x01C9010E, 90, -154.75, -72, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Ithaenc Cathedral */
+VALUES (0x701C9006, 4200083, 0x01C9010E, 90, -154.75, -72, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Ithaenc Cathedral */
 /* @teleloc 0x01C9010E [90.000000 -154.750000 -72.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9007,  4200082, 0x01C90119, 90, -216.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Son of Pooky */
+VALUES (0x701C9007, 4200082, 0x01C90119, 90, -216.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Son of Pooky */
 /* @teleloc 0x01C90119 [90.000000 -216.975998 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9008,  4200081, 0x01C9011A, 95.25, -160, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Weeping Quest */
+VALUES (0x701C9008, 4200081, 0x01C9011A, 95.25, -160, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Heart of Innocence */
 /* @teleloc 0x01C9011A [95.250000 -160.000000 -72.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C9009,  4200080, 0x01C9011F, 95.25, -210, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Bobo Quest */
+VALUES (0x701C9009, 4200080, 0x01C9011F, 95.25, -210, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Bobo Waterfall */
 /* @teleloc 0x01C9011F [95.250000 -210.000000 -72.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C900A,  4200079, 0x01C90120, 110, -174.75, -72, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Town Master's portal to Sir Bellas' */
+VALUES (0x701C900A, 4200079, 0x01C90120, 110, -174.75, -72, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sir Bellas */
 /* @teleloc 0x01C90120 [110.000000 -174.750000 -72.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C900B,  4200078, 0x01C90125, 110, -196.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Desert March */
+VALUES (0x701C900B, 4200078, 0x01C90125, 110, -196.976, -72, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Desert March */
 /* @teleloc 0x01C90125 [110.000000 -196.975998 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C900C,  4200077, 0x01C90126, 115.25, -180, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's' Portal to Candeth Tree */
+VALUES (0x701C900C, 4200077, 0x01C90126, 115.25, -180, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Candeth Tree */
 /* @teleloc 0x01C90126 [115.250000 -180.000000 -72.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C900D, 4200076, 0x01C90127, 115.25, -190, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town Master's Portal to Ayan Baqur */
+VALUES (0x701C900D, 4200076, 0x01C90127, 115.25, -190, -72, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Ayan Baqur */
 /* @teleloc 0x01C90127 [115.250000 -190.000000 -72.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -312,3 +312,7 @@ VALUES (0x701C904A,  1596, 0x01C90231, 80, -20, 0, 0, 0, 0, -1, False, '2005-02-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C904B,   568, 0x01C90233, 80, -24.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x01C90233 [80.000000 -24.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701C904C, 151002, 0x01C901D1, 61.6175, -80.3056, -6.063, -0.708791, 0, 0, -0.705419, False, '2022-03-21 20:47:58'); /* Potato Sanctuary */
+/* @teleloc 0x01C901D1 [61.617500 -80.305603 -6.063000] -0.708791 0.000000 0.000000 -0.705419 */
