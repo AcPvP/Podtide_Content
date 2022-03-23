@@ -35,7 +35,7 @@ VALUES (4200028,   1, 0x02000179) /* Setup */
      , (4200028,   6, 0x04000BEF) /* PaletteBase */
      , (4200028,   7, 0x1000010B) /* ClothingBase */
      , (4200028,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (4200028,  50,  100675800) /* IconOverlay */
+     , (4200028,   8, 100675800) /* Icon */
      , (4200028,  52, 0x060065FB) /* IconUnderlay */;
 
 /* Lifestoned Changelog:
