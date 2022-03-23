@@ -155,14 +155,15 @@ VALUES (151001, 9, 20630,  5, 0, 0.10, False) /* MMD */
      , (151001, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
 	 , (151001, 9, 43901,  0, 0, 0.10, False) /* Create Prom Note */
 	 , (151001, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
-	 , (151001, 9, 4200012,  0, 0, 0.025, False) /* Create 4200012 Burgler Tools */
-	 , (151001, 9, 4200018,  0, 0, 0.025, False) /* Create 4200018 Ground Anus */	 
-	 , (151001, 9, 4200019,  0, 0, 0.025, False) /* Create 4200019 A Fuckin Bang */
-	 , (151001, 9, 4200021,  0, 0, 0.025, False) /* Create 4200021 Covid Vaccine */
-	 , (151001, 9, 4200017,  0, 0, 0.025, False) /* 4200017 Town Control Experience Trinket */
-	 , (151001, 9, 4200020,  0, 0, 0.025, False) /* 4200020 Burning Blunt */
-	 , (151001, 9, 42127923, 5, 0, 0.025, False) /* 42127923 Tears */
-	 , (151001, 9, 4200028,  0, 0, 0.025, False) /* 4200028 Set Randomizer Morph Gem */
-	 , (151001, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+	 , (151001, 9, 4200012,  0, 0, 0.01, False) /* Create 4200012 Burgler Tools */
+	 , (151001, 9, 4200018,  0, 0, 0.008, False) /* Create 4200018 Ground Anus */	 
+	 , (151001, 9, 4200019,  0, 0, 0.008, False) /* Create 4200019 A Fuckin Bang */
+	 , (151001, 9, 4200021,  0, 0, 0.008, False) /* Create 4200021 Covid Vaccine */
+	 , (151001, 9, 4200017,  0, 0, 0.008, False) /* 4200017 Town Control Experience Trinket */
+	 , (151001, 9, 4200020,  0, 0, 0.008, False) /* 4200020 Burning Blunt */	 	 
+	 , (151001, 9,     0,  0, 0, 0.95, False)    /* Create nothing for ContainTreasure */
+	 , (151001, 9, 42127923, 5, 0, 0.035, False) /* 42127923 Tears */
+	 , (151001, 9, 4200028,  0, 0, 0.015, False) /* 4200028 Set Randomizer Morph Gem */
+	 , (151001, 9,     0,  0, 0, 0.95, False)    /* Create nothing for ContainTreasure */
 	 
 	 ;
