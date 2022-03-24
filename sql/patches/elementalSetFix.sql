@@ -1,4 +1,4 @@
-USE ace_world;
+/*USE ace_world;
 
 UPDATE spell
 SET stat_Mod_Val = 0.98
@@ -27,4 +27,4 @@ WHERE ID IN(4760, 4761, 4762, 4763,
 4785,
 4786,
 4787
-)
+)*/
