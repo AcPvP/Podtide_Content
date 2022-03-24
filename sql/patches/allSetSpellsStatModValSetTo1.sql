@@ -1,4 +1,4 @@
-UPDATE ace_world.spell
+/*UPDATE ace_world.spell
 SET stat_Mod_Val = 1
 WHERE ID IN (6145,
 6144,
@@ -143,4 +143,4 @@ WHERE ID IN (6145,
 4057,
 4056,
 4055
-);
+);*/

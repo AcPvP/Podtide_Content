@@ -1,4 +1,4 @@
-USE ace_world;
+/*USE ace_world;
 
 UPDATE spell
 SET stat_Mod_Val = 1
@@ -141,4 +141,4 @@ WHERE ID IN(
 6143,
 6145,
 6144
-)
+)*/
