@@ -13,7 +13,7 @@ VALUES (4200019,   1,        128) /* ItemType - Misc */
      , (4200019,  19,         25) /* Value */
      , (4200019,  33,          1) /* Bonded - Bonded */
      , (4200019,  89,          4) /* BoosterEnum - Stamina */
-     , (4200019,  90,         90) /* BoostValue */
+     , (4200019,  90,        100) /* BoostValue */
      , (4200019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4200019, 114,          1) /* Attuned - Attuned */
      , (4200019, 267,     172800) /* Lifespan */;
