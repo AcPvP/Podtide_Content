@@ -12,7 +12,7 @@ VALUES (4200021,   1,        128) /* ItemType - Misc */
      , (4200021,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (4200021,  19,         25) /* Value */
      , (4200021,  89,          2) /* BoosterEnum - Health */
-     , (4200021,  90,        140) /* BoostValue */
+     , (4200021,  90,         90) /* BoostValue */
      , (4200021,  91,        100) /* MaxStructure */
      , (4200021,  92,        100) /* Structure */
      , (4200021, 114,          1) /* Attuned - Attuned */
