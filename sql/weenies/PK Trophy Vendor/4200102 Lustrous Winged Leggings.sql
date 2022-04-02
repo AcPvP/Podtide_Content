@@ -6,7 +6,7 @@ VALUES (4200102, 'leggingsgromniewingedtailor', 2, '2005-02-09 10:00:00') /* Clo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4200102,   1,          2) /* ItemType - Armor */
      , (4200102,   3,         20) /* PaletteTemplate - Silver */
-     , (4200102,   4,      16384) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
+     , (4200102,   4,        256) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (4200102,   5,          1) /* EncumbranceVal */
      , (4200102,   8,       1275) /* Mass */
      , (4200102,   9,       8192) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
