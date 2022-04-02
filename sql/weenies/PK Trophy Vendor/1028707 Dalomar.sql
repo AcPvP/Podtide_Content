@@ -431,7 +431,36 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
      , (1028707, 4, 42149813,  0, 0, 0, False) /* Create  (42149813) for Shop */
      , (1028707, 4, 1910618,  0, 0, 0, False) /* Create  (1910618) for Shop */
      , (1028707, 4, 1910619,  0, 0, 0, False) /* Create  (1910619) for Shop */
-     , (1028707, 4, 42130741,  0, 0, 0, False) /* Create  (42130741) for Shop */;
+	 , (1028707, 4, 42130741,  0, 0, 0, False) /* Create  (42130741) for Shop */
+     , (1028707, 4, 4200094,  0, 0, 0, False) /* Create  Spear of Winter Flame 2h (4200094) for Shop */
+	 , (1028707, 4, 4200095,  0, 0, 0, False) /* Create  Harbinger Arm Guard (4200095) for Shop */
+     , (1028707, 4, 4200096,  0, 0, 0, False) /* Create  Tracker Boots (4200096) for Shop */
+     , (1028707, 4, 4200097,  0, 0, 0, False) /* Create  Footman's Boots (4200097) for Shop */
+     , (1028707, 4, 4200098,  0, 0, 0, False) /* Create  Enhanced Robe of the Tundra (4200098) for Shop */
+     , (1028707, 4, 4200099,  0, 0, 0, False) /* Create  Hearty Reedshark Robe (4200099) for Shop */
+     , (1028707, 4, 4200100,  0, 0, 0, False) /* Create  Undead Sailor Mask (4200100) for Shop */
+     , (1028707, 4, 4200101,  0, 0, 0, False) /* Create  Turquoise Winged Helmet (4200101) for Shop */
+     , (1028707, 4, 4200102,  0, 0, 0, False) /* Create  Lustrous Winged Leggings (4200102) for Shop */
+     , (1028707, 4, 4200103,  0, 0, 0, False) /* Create  Dusky Winged Coat (4200103) for Shop */
+     , (1028707, 4, 4200104,  0, 0, 0, False) /* Create  Koji's Beast (4200104) for Shop */
+     , (1028707, 4, 4200105,  0, 0, 0, False) /* Create  Veil of Darkness (4200105) for Shop */
+     , (1028707, 4, 4200106,  0, 0, 0, False) /* Create  Royal Runed Partizan (4200106) for Shop */
+     , (1028707, 4, 4200107,  0, 0, 0, False) /* Create  Assault Spear (4200107) for Shop */
+     , (1028707, 4, 4200108,  0, 0, 0, False) /* Create  Auroch Horn Spear (4200108) for Shop */
+     , (1028707, 4, 4200109,  0, 0, 0, False) /* Create  Banished Spear (4200109) for Shop */
+     , (1028707, 4, 4200110,  0, 0, 0, False) /* Create  Battered Old Spear (4200110) for Shop */
+     , (1028707, 4, 4200111,  0, 0, 0, False) /* Create  Bound Singularity Spear (4200111) for Shop */
+     , (1028707, 4, 4200112,  0, 0, 0, False) /* Create  Burun Slaying Swordstaff (4200112) for Shop */
+     , (1028707, 4, 4200113,  0, 0, 0, False) /* Create  Champion's Demise (4200113) for Shop */
+     , (1028707, 4, 4200114,  0, 0, 0, False) /* Create  Chimeric Lance of the Quiddity (4200114) for Shop */
+     , (1028707, 4, 4200115,  0, 0, 0, False) /* Create  Tibri's Fire Spear (4200115) for Shop */
+     , (1028707, 4, 4200116,  0, 0, 0, False) /* Create  Kreerg's Spear (4200116) for Shop */
+     , (1028707, 4, 4200117,  0, 0, 0, False) /* Create  Lance of the Quiddity (4200117) for Shop */
+     , (1028707, 4, 4200118,  0, 0, 0, False) /* Create  Star of Gharu'n (4200118) for Shop */
+     , (1028707, 4, 4200119,  0, 0, 0, False) /* Create  Spectral  Spear (4200119) for Shop */
+	 , (1028707, 4, 4200120,  0, 0, 0, False) /* Create  Singularity Spear (4200120) for Shop */;
+
+
 
 /* Lifestoned Changelog:
 {
