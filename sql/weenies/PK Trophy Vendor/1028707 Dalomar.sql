@@ -431,6 +431,7 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
      , (1028707, 4, 42149813,  0, 0, 0, False) /* Create  (42149813) for Shop */
      , (1028707, 4, 1910618,  0, 0, 0, False) /* Create  (1910618) for Shop */
      , (1028707, 4, 1910619,  0, 0, 0, False) /* Create  (1910619) for Shop */
+	 , (1028707, 4, 42130741,  0, 0, 0, False) /* Create  (42130741) for Shop */
      , (1028707, 4, 4200094,  0, 0, 0, False) /* Create  Spear of Winter Flame 2h (4200094) for Shop */
 	 , (1028707, 4, 4200095,  0, 0, 0, False) /* Create  Harbinger Arm Guard (4200095) for Shop */
      , (1028707, 4, 4200096,  0, 0, 0, False) /* Create  Tracker Boots (4200096) for Shop */
@@ -456,7 +457,9 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
      , (1028707, 4, 4200116,  0, 0, 0, False) /* Create  Kreerg's Spear (4200116) for Shop */
      , (1028707, 4, 4200117,  0, 0, 0, False) /* Create  Lance of the Quiddity (4200117) for Shop */
      , (1028707, 4, 4200118,  0, 0, 0, False) /* Create  Star of Gharu'n (4200118) for Shop */
-     , (1028707, 4, 4200119,  0, 0, 0, False) /* Create  Spectral  Spear (4200119) for Shop */;
+     , (1028707, 4, 4200119,  0, 0, 0, False) /* Create  Spectral  Spear (4200119) for Shop */
+	 , (1028707, 4, 4200120,  0, 0, 0, False) /* Create  Singularity Spear (4200120) for Shop */;
+
 
 
 /* Lifestoned Changelog:
