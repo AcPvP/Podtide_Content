@@ -461,7 +461,6 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
 	 , (1028707, 4, 4200120,  0, 0, 0, False) /* Create  Singularity Spear (4200120) for Shop */
 	 , (1028707, 4, 4200121,  0, 0, 0, False) /* Create  Red Rune Silveran Spear (4200121) for Shop */
 	 , (1028707, 4, 4200122,  0, 0, 0, False) /* Create  Pillar of Fearlessness (4200122) for Shop */;
-	 ;
 
 
 
