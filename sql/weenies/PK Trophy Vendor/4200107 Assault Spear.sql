@@ -21,7 +21,7 @@ VALUES (4200107,   1,          1) /* ItemType - MeleeWeapon */
 	 , (4200107,  52,          1) /* ParentLocation - RightHand */
      , (4200107, 150,        103) /* HookPlacement - Hook */
      , (4200107, 151,          2) /* HookType - Wall */
-	 , (4200106, 353,         11) /* WeaponType - TwoHanded */;
+	 , (4200107, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4200107,  15, True ) /* LightsStatus */
