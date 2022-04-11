@@ -48,5 +48,6 @@ VALUES (4200140,   1, 0x02000921) /* Setup */
      , (4200140,   7, 0x1000010B) /* ClothingBase */
      , (4200140,   8, 0x06002370) /* Icon */
      , (4200140,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (4200140,  28,       2942) /* Spell - Free Ride to the Abandoned Mine */
+     , (4200140,  28,        157) /* Spell - Summon Primary Portal I */
+	 , (4200140,  31,    4200139) /* LinkedPortalOne - Portal to Holtburg */
      , (4200140,  36, 0x0E000016) /* MutateFilter */;
