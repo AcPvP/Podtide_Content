@@ -316,7 +316,3 @@ VALUES (0x701C904B,   568, 0x01C90233, 80, -24.75, 0, 0, 0, 0, -1, False, '2005-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C904C, 151002, 0x01C901D1, 61.6175, -80.3056, -6.063, -0.708791, 0, 0, -0.705419, False, '2022-03-21 20:47:58'); /* Potato Sanctuary */
 /* @teleloc 0x01C901D1 [61.617500 -80.305603 -6.063000] -0.708791 0.000000 0.000000 -0.705419 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C904D, 4200156, 0x01C901E1, 80.0955, -103.984, -6.063, -0.002308, 0, 0, 0.999997, False, '2022-04-18 21:53:40'); /* Irwin's Demise */
-/* @teleloc 0x01C901E1 [80.095497 -103.984001 -6.063000] -0.002308 0.000000 0.000000 0.999997 */
