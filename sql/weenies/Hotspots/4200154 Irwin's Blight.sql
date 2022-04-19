@@ -137,8 +137,6 @@ VALUES (4200154,  3995,   2.05) /* Heavy Force Ring */
 	 , (4200154,  4481,   2.005) /* Incantation of Fire Vulnerability Other */
 	 , (4200154,  4483,   2.005) /* Incantation of Lightning Vulnerability Other */
 	 , (4200154,  4485,   2.005) /* Incantation of Piercing Vulnerability Other */	 
-	 , (4200154,  4330,   2.001) /* Incantation of Nullify All Magic Other */
-     , (4200154,  4332,   2.001) /* Incantation of Nullify All Magic Other */
 ; 
 
 
@@ -154,8 +152,10 @@ VALUES (4200154, 9, 20630,  5, 0, 0.10, False) /* MMD */
 	 , (4200154, 9, 4200017,  0, 0, 0.0047, False) /* 4200017 Town Control Experience Trinket */
 	 , (4200154, 9, 4200020,  0, 0, 0.0047, False) /* 4200020 Burning Blunt */	 	 
 	 , (4200154, 9,     0,  0, 0, 0.97, False)    /* Create nothing for ContainTreasure */
-	 , (4200154, 9, 42127923, 5, 0, 0.04, False) /* 42127923 Tears */
-	 , (4200154, 9, 4200028,  0, 0, 0.01, False) /* 4200028 Set Randomizer Morph Gem */
-	 , (4200154, 9,     0,  0, 0, 0.95, False)    /* Create nothing for ContainTreasure */
+	 , (4200154, 9, 42127923, 5, 0, 0.05, False) /* 42127923 Tears */
+	 , (4200154, 9, 4200028,  0, 0, 0.03, False) /* 4200028 Set Randomizer Morph Gem */
+	 , (4200154, 9, 4200050,  0, 0, 0.03, False) /* 4200050 Cloak of The Undertaker */
+	 , (4200154, 9, 4200051,  0, 0, 0.03, False) /* 4200051 Cloak of Mankind */
+	 , (4200154, 9,     0,  0, 0, 0.86, False)    /* Create nothing for ContainTreasure */
 	 
 	 ;
