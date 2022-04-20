@@ -94,7 +94,7 @@ VALUES (4200154,   1, 350, 0, 0) /* Strength */
      , (4200154,   6, 880, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4200154,   1, 7600, 0, 0, 11775) /* MaxHealth */
+VALUES (4200154,   1, 2600, 0, 0, 11775) /* MaxHealth */
      , (4200154,   3, 13000, 0, 0, 3350) /* MaxStamina */
      , (4200154,   5, 16200, 0, 0, 6680) /* MaxMana */;
 
@@ -126,7 +126,7 @@ VALUES (4200154,  3995,   2.05) /* Heavy Force Ring */
 	 , (4200154,  4008,   2.05) /* Force Wave */
 	 , (4200154,  6192,   2.05) /* Nuhmudira's Spines II */	 
 	 , (4200154,  4308,   2.05) /* Incantation of Harm Other */
-	 , (4200154,  1619,   2.05) /* Blood Loather IV */
+	 , (4200154,  1619,   2.005) /* Blood Loather IV */
 	 , (4200154,  5344,   2.05) /* Destructive Curse VI */
 	 , (4200154,  4310,   2.015) /* Incantation of Heal Other */
 	 , (4200154,  6089,   2.025) /* Legendary Blood Thirst */	 
