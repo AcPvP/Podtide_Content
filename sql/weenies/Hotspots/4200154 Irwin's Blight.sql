@@ -102,7 +102,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (4200154,  6, 0, 3, 0, 250, 0, 0) /* MeleeDefense        Specialized */
      , (4200154,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
      , (4200154, 14, 0, 3, 0, 260, 0, 0) /* ArcaneLore          Specialized */
-     , (4200154, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
+     , (4200154, 15, 0, 3, 0, 150, 0, 0) /* MagicDefense        Specialized */
      , (4200154, 20, 0, 3, 0, 800, 0, 0) /* Deception           Specialized */
      , (4200154, 31, 0, 3, 0, 9000, 0, 0) /* CreatureEnchantment Specialized */
      , (4200154, 32, 0, 3, 0, 9000, 0, 0) /* ItemEnchantment     Specialized */
