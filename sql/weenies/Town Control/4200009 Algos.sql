@@ -161,7 +161,6 @@ VALUES (4200009, 2, 4200010,  0, 0, 0, False) /* Create Protector's Spike (42000
      , (4200009, 4, 4200026,  0, 0, 0, False) /* Create Arcane Lore Morph Gem (4200026) for Shop */
 	 , (4200009, 4, 4200027,  0, 0, 0, False) /* Create Epic Randomizer Morph Gem (4200027) for Shop */
 	 , (4200009, 4, 4200140,  0, 0, 0, False) /* Create Abandoned Mines Portal Sending Gem (4200140) for Shop */
- 	 , (4200009, 4, 4200157,  0, 0, 0, False) /* Create Irwin's Demise Portal Sending Gem (4200140) for Shop */
 	 ;
 	 
 
