@@ -11,6 +11,7 @@ VALUES (4200028,   1,       2048) /* ItemType - Gem */
      , (4200028,  13,         10) /* StackUnitEncumbrance */
      , (4200028,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4200028,  18,          1) /* UiEffects - Magical */
+     , (4200028,  33,         -1) /* Bonded - Slippery */
      , (4200028,  19,         50) /* Value */
      , (4200028,  65,        101) /* Placement - Resting */
      , (4200028,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

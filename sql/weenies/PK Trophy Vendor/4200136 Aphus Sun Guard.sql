@@ -23,7 +23,8 @@ VALUES (4200136,   1,          4) /* ItemType - Clothing */
      , (4200136, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4200136,  22, True ) /* Inscribable */;
+VALUES (4200136,  22, True ) /* Inscribable */
+     , (4200136, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4200136,   5,  -0.025) /* ManaRate */
