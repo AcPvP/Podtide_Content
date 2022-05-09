@@ -11,7 +11,7 @@ VALUES (4200136,   1,          4) /* ItemType - Clothing */
      , (4200136,   8,         15) /* Mass */
      , (4200136,   9,          1) /* ValidLocations - HeadWear */
      , (4200136,  16,          1) /* ItemUseable - No */
-     , (4200136,  19,       6000) /* Value */
+     , (4200136,  19,         20) /* Value */
      , (4200136,  27,          1) /* ArmorType - Cloth */
      , (4200136,  28,          0) /* ArmorLevel */
      , (4200136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
