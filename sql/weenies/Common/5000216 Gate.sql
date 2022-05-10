@@ -6,9 +6,9 @@ VALUES (5000216, 'WoodWalls', 19, '2020-01-08 07:59:44') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5000216,   1,        128) /* ItemType - Misc */
      , (5000216,   8,        500) /* Mass */
-     , (5000216,  16,         32) /* ItemUseable - Remote */
+     , (5000216,  16,          1) /* ItemUseable - No */
      , (5000216,  19,          0) /* Value */
-     , (5000216,  38,         50) /* ResistLockpick */
+     , (5000216,  38,      50000) /* ResistLockpick */
      , (5000216,  93,          8) /* PhysicsState - ReportCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
