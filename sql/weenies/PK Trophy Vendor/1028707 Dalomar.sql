@@ -462,7 +462,16 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
 	 , (1028707, 4, 4200121,  0, 0, 0, False) /* Create  Red Rune Silveran Spear (4200121) for Shop */
 	 , (1028707, 4, 4200122,  0, 0, 0, False) /* Create  Pillar of Fearlessness (4200122) for Shop */
 	 , (1028707, 4, 4200136,  0, 0, 0, False) /* Create  Aphus Sun Guard (4200136) for Shop */
-     , (1028707, 4, 4200137,  0, 0, 0, False) /* Create  Hamud's Pyreal Katar (4200136) for Shop */;
+     , (1028707, 4, 4200160,  0, 0, 0, False) /* Create  Assassin's Whisper (4200160) for Shop */
+     , (1028707, 4, 4200161,  0, 0, 0, False) /* Create  Bloodmark Crossbow (4200161) for Shop */
+     , (1028707, 4, 4200162,  0, 0, 0, False) /* Create  Iron Bull (4200162) for Shop */
+     , (1028707, 4, 4200163,  0, 0, 0, False) /* Create  Zefir's Breath (4200163) for Shop */
+     , (1028707, 4, 4200164,  0, 0, 0, False) /* Create  Wretched Crossbow (420064) for Shop */
+     , (1028707, 4, 4200165,  0, 0, 0, False) /* Create  Feathered Razor (4200165) for Shop */
+     , (1028707, 4, 4200166,  0, 0, 0, False) /* Create  Bone Crossbow (4200166) for Shop */
+     , (1028707, 4, 4200167,  0, 0, 0, False) /* Create  Red Rune Silveran Crossbow (4200167) for Shop */
+     , (1028707, 4, 4200168,  0, 0, 0, False) /* Create  Gear Crossbow Dark Grey (4200168) for Shop */
+     , (1028707, 4, 4200169,  0, 0, 0, False) /* Create  Gear Crossbow Black (4200169) for Shop */;
 
 
 
