@@ -471,7 +471,10 @@ VALUES (1028707, 2,    74,  0, 92, 0, False) /* Create Heaume (74) for Wield */
      , (1028707, 4, 4200166,  0, 0, 0, False) /* Create  Bone Crossbow (4200166) for Shop */
      , (1028707, 4, 4200167,  0, 0, 0, False) /* Create  Red Rune Silveran Crossbow (4200167) for Shop */
      , (1028707, 4, 4200168,  0, 0, 0, False) /* Create  Gear Crossbow Dark Grey (4200168) for Shop */
-     , (1028707, 4, 4200169,  0, 0, 0, False) /* Create  Gear Crossbow Black (4200169) for Shop */;
+     , (1028707, 4, 4200169,  0, 0, 0, False) /* Create  Gear Crossbow Black (4200169) for Shop */
+	 , (1028707, 4, 4200170,  0, 0, 0, False) /* Create  Flaming Skull (4200170) for Shop */
+	 , (1028707, 4, 4200172,  0, 0, 0, False) /* Create  Aerbax's Defeat (4200172) for Shop */
+	 , (1028707, 4, 4200173,  0, 0, 0, False) /* Create  Aerlinthe Cynosure (4200173) for Shop */;
 
 
 
